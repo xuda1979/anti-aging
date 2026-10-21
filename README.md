@@ -57,9 +57,15 @@ Source downloads fail closed on checksum mismatch. If GEO changes a file, preser
 - [Diligence review](docs/business/Cellular_Rejuvenation_Diligence_Review.pdf) and [illustrative financial plan](docs/business/Cellular_Rejuvenation_Financial_Plan.xlsx)
 - [Next scientific and business milestones](docs/ROADMAP.md), [data card](data/processed/DATA_CARD.md), [rights and attribution notice](NOTICE.md) and [earlier manuscript archive](docs/archive/README.md)
 
-The business documents predate this new training pilot; read them together with the current study report. Their $8 million, 24-month plan is illustrative. Institutional sponsorship, founder role commitments, commercial data/IP rights and clinical results have not been established. The earlier manuscript's separate 34-sample treatment-classification and synthetic studies have not been independently replayed in this release because their accompanying source archive was unavailable.
+The business documents predate this new training pilot; read them together with the current study report. Their $8 million, 24-month plan is illustrative. Institutional sponsorship, founder role commitments, commercial data/IP rights and clinical results have not been established.
 
 Private correspondence, investor contact lists, outreach logs and credentials are excluded from this public repository. Public data are credited to their original investigators; no exclusive ownership or unrestricted commercial rights in third-party materials are asserted.
+
+## Recovered earlier code and reproduction
+
+The earlier `CellClockAI` source archive was recovered during this update. Its 59 original files are preserved unchanged under [`legacy/CellClockAI/`](legacy/CellClockAI/), with original attribution and licenses. A separate fresh CPU replay reproduced all 11 compared result files byte for byte. See the [reproduction report](legacy/REPRODUCTION.md) and [independent verification](legacy/verification/REPORT.md) for commands, hashes and limitations.
+
+That study uses **34 public cultures from three donor labels** in GSE165177 to classify treatment status; its reproduced AUROC of 1.00 **does not measure age reversal or efficacy**. Its six-scenario, 20-seed synthetic benchmark uses invented causal truth. The optional graph model was not trained on biological data and its Torch smoke test was skipped in this replay. These results are separate from the adult age-prediction study above. An earlier note that the source was unavailable has been corrected.
 
 ## Research and collaboration
 

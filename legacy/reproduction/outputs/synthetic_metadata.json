@@ -1,0 +1,24 @@
+{
+  "evidence_type": "synthetic_benchmark_only",
+  "seeds": 20,
+  "scenarios": [
+    "additive",
+    "synergy",
+    "redundant",
+    "stress_interaction",
+    "unseen_synergy",
+    "no_causal_effect"
+  ],
+  "n_regulators": 12,
+  "n_train": 900,
+  "n_test": 600,
+  "units": "arbitrary simulator units",
+  "support_minimum_coactivation": 20,
+  "causal_truth": "Reg00 and Reg01, except no_causal_effect; Reg02 is a clock-only decoy",
+  "caveats": [
+    "Identity constraint uses simulator truth",
+    "All actions are randomized",
+    "Measured outcomes and upstream action assignment are available",
+    "Pair support check is a conservative heuristic, not an identification theorem"
+  ]
+}

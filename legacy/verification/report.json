@@ -1,0 +1,4998 @@
+{
+  "checked_at_utc": "2026-10-21T04:33:36.220772+00:00",
+  "evidence_scope": "Recovered archive and optional fresh computational replay; no biological efficacy or mechanism verification",
+  "static_archive_review": {
+    "verdict": "PASS",
+    "manifest_entries": 58,
+    "manifest_entries_match": 58,
+    "manifest_failures": [],
+    "credential_pattern_findings": [],
+    "manual_source_review": [
+      "Downloader restricted to two fixed HTTPS NCBI GEO matrices and pinned hashes.",
+      "No remote model service or credentials needed.",
+      "Setuptools metadata declares standard scientific dependencies; no custom install hooks found.",
+      "Nested GitHub workflow installs dependencies and runs tests/simulations; no credential exfiltration action found.",
+      "CSV sample metadata uses public O1/O2/O3 culture labels; no private campaign or mail records found."
+    ],
+    "limits": [
+      "Static review is a bounded inspection, not a comprehensive security audit.",
+      "Archive-local hash consistency does not authenticate the original author or historical execution date."
+    ]
+  },
+  "archived_results": {
+    "source": "/workspace/scratch/3f570943700c/anti-aging/legacy/CellClockAI",
+    "verdict": "PASS",
+    "checks": [
+      {
+        "check": "34 unique saved samples and three donors",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Saved sample manifest matches predictions",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_15days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_transiently_reprogrammed_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_15days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_transiently_reprogrammed_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_transiently_reprogrammed_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_15days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_15days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_15days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_transiently_reprogrammed_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_15days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_17days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_transiently_reprogrammed_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_transiently_reprogrammed_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_15days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_17days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_15days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_17days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_17days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Class counts agree",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Pooled donor-holdout metrics recompute",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Donor fold counts/disjointness: O1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Donor fold counts/disjointness: O2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Donor fold counts/disjointness: O3",
+        "verdict": "PASS"
+      },
+      {
+        "check": "13 matched donor/experiment/duration blocks",
+        "verdict": "PASS"
+      },
+      {
+        "check": "100 finite saved null scores",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Saved null summary and descriptive p-value recompute",
+        "verdict": "PASS"
+      },
+      {
+        "check": "480 distinct scenario/seed/model rows",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Six scenarios each20 seeds per model",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic metrics finite and in declared ranges",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: additive/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: additive/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: additive/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: additive/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: no_causal_effect/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: no_causal_effect/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: no_causal_effect/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: no_causal_effect/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: redundant/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: redundant/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: redundant/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: redundant/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: stress_interaction/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: stress_interaction/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: stress_interaction/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: stress_interaction/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: synergy/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: synergy/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: synergy/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: synergy/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: unseen_synergy/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: unseen_synergy/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: unseen_synergy/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: unseen_synergy/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Every saved policy regret and clock-decoy choice matches simulator truth",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Unseen synergy support is absent",
+        "verdict": "PASS"
+      },
+      {
+        "check": "600 distinct ranking records",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "All synthetic ranking summary means/sampleSDs recompute",
+        "verdict": "PASS"
+      }
+    ],
+    "public": {
+      "sample_count": 34,
+      "donors": 3,
+      "class_counts": {
+        "control": 21,
+        "treated": 13
+      },
+      "pooled": {
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      "folds": [
+        {
+          "heldout": "O1",
+          "n_train": 25,
+          "n_test": 9,
+          "auroc": 1.0,
+          "balanced_accuracy": 1.0
+        },
+        {
+          "heldout": "O2",
+          "n_train": 23,
+          "n_test": 11,
+          "auroc": 1.0,
+          "balanced_accuracy": 1.0
+        },
+        {
+          "heldout": "O3",
+          "n_train": 20,
+          "n_test": 14,
+          "auroc": 1.0,
+          "balanced_accuracy": 1.0
+        }
+      ],
+      "matched_blocks": 13,
+      "null_mean_auroc": 0.5376923076923078,
+      "descriptive_permutation_p": 0.009900990099009901,
+      "raw_source_checks": [
+        {
+          "file": "GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "verdict": "UNKNOWN",
+          "reason": "Raw source matrix not bundled in original archive"
+        },
+        {
+          "file": "GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+          "verdict": "UNKNOWN",
+          "reason": "Raw source matrix not bundled in original archive"
+        }
+      ],
+      "unrecomputable_from_saved_probabilities": [
+        "Experiment-holdout probabilities were not archived",
+        "Marker-removal probabilities were not archived",
+        "Archived fitted checkpoints and fold-specific transforms were not saved"
+      ]
+    },
+    "synthetic": {
+      "scenarios": [
+        "additive",
+        "synergy",
+        "redundant",
+        "stress_interaction",
+        "unseen_synergy",
+        "no_causal_effect"
+      ],
+      "seeds_per_scenario": 20,
+      "model_rows": 480,
+      "ranking_rows": 600,
+      "all_summary_cells_match": true,
+      "saved_policy_regret_recomputed_from_action_truth": true,
+      "units": "arbitrary simulator units",
+      "limitations": [
+        "Per-sample synthetic model predictions were not archived, so RMSE inputs and ranking orders cannot be independently reconstructed from saved summary rows alone.",
+        "Identity eligibility uses simulator truth; results cannot identify biological targets."
+      ]
+    }
+  },
+  "original_archive": {
+    "sha256": "8e0b99ec397c59b3ea58fe9f64e19e6aa8fed3dfb41f0eca726742b4761d2ace",
+    "bytes": 1095386,
+    "unsafe_paths": []
+  },
+  "fresh_replay": {
+    "source": "/workspace/scratch/3f570943700c/project_update_20261021/legacy_rerun/CellClockAI",
+    "verdict": "PASS",
+    "checks": [
+      {
+        "check": "34 unique saved samples and three donors",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Saved sample manifest matches predictions",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_15days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_transiently_reprogrammed_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_15days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_transiently_reprogrammed_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_transiently_reprogrammed_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_15days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_13days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_15days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_17days_exp1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_15days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_transiently_reprogrammed_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_15days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_negative_control_17days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_transiently_reprogrammed_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O2_transiently_reprogrammed_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_15days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_17days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_13days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_15days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_transiently_reprogrammed_17days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O1_negative_control_17days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Public sample label: O3_negative_control_10days_exp2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Class counts agree",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Pooled donor-holdout metrics recompute",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Donor fold counts/disjointness: O1",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Donor fold counts/disjointness: O2",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Donor fold counts/disjointness: O3",
+        "verdict": "PASS"
+      },
+      {
+        "check": "13 matched donor/experiment/duration blocks",
+        "verdict": "PASS"
+      },
+      {
+        "check": "100 finite saved null scores",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Saved null summary and descriptive p-value recompute",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Raw file hash: GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+        "verdict": "PASS"
+      },
+      {
+        "check": "35723 unique aggregated gene IDs in source: GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Raw file hash: GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+        "verdict": "PASS"
+      },
+      {
+        "check": "35723 unique aggregated gene IDs in source: GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Sample selection exactly matches fetched raw headers",
+        "verdict": "PASS"
+      },
+      {
+        "check": "480 distinct scenario/seed/model rows",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Six scenarios each20 seeds per model",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic metrics finite and in declared ranges",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: additive/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: additive/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: additive/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: additive/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: no_causal_effect/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: no_causal_effect/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: no_causal_effect/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: no_causal_effect/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: redundant/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: redundant/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: redundant/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: redundant/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: stress_interaction/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: stress_interaction/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: stress_interaction/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: stress_interaction/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: synergy/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: synergy/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: synergy/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: synergy/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: unseen_synergy/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: unseen_synergy/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: unseen_synergy/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic summary recomputes: unseen_synergy/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: additive/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: synergy/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: redundant/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: stress_interaction/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: unseen_synergy/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/0/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/0/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/0/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/0/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/1/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/1/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/1/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/1/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/2/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/2/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/2/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/2/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/3/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/3/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/3/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/3/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/4/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/4/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/4/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/4/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/5/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/5/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/5/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/5/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/6/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/6/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/6/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/6/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/7/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/7/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/7/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/7/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/8/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/8/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/8/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/8/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/9/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/9/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/9/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/9/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/10/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/10/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/10/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/10/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/11/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/11/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/11/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/11/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/12/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/12/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/12/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/12/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/13/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/13/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/13/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/13/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/14/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/14/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/14/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/14/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/15/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/15/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/15/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/15/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/16/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/16/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/16/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/16/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/17/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/17/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/17/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/17/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/18/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/18/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/18/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/18/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/19/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/19/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/19/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Synthetic action valid: no_causal_effect/19/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Every saved policy regret and clock-decoy choice matches simulator truth",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Unseen synergy support is absent",
+        "verdict": "PASS"
+      },
+      {
+        "check": "600 distinct ranking records",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: additive/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: no_causal_effect/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: redundant/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: stress_interaction/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: synergy/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/interaction_clock",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/interaction_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/linear_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/neural_function",
+        "verdict": "PASS"
+      },
+      {
+        "check": "Ranking contains20 seeds: unseen_synergy/observational_correlation",
+        "verdict": "PASS"
+      },
+      {
+        "check": "All synthetic ranking summary means/sampleSDs recompute",
+        "verdict": "PASS"
+      }
+    ],
+    "public": {
+      "sample_count": 34,
+      "donors": 3,
+      "class_counts": {
+        "control": 21,
+        "treated": 13
+      },
+      "pooled": {
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      "folds": [
+        {
+          "heldout": "O1",
+          "n_train": 25,
+          "n_test": 9,
+          "auroc": 1.0,
+          "balanced_accuracy": 1.0
+        },
+        {
+          "heldout": "O2",
+          "n_train": 23,
+          "n_test": 11,
+          "auroc": 1.0,
+          "balanced_accuracy": 1.0
+        },
+        {
+          "heldout": "O3",
+          "n_train": 20,
+          "n_test": 14,
+          "auroc": 1.0,
+          "balanced_accuracy": 1.0
+        }
+      ],
+      "matched_blocks": 13,
+      "null_mean_auroc": 0.5376923076923078,
+      "descriptive_permutation_p": 0.009900990099009901,
+      "raw_source_checks": [
+        {
+          "file": "GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "verdict": "PASS",
+          "sha256": "e6f055a491900a8f8563a339d1f18d99a92690af53d8ff44d7cc9a164b66209c"
+        },
+        {
+          "file": "GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+          "verdict": "PASS",
+          "sha256": "fca65676b19599491e139c583971a88f6bf2d177592d49558e57689e18e067e8"
+        }
+      ],
+      "unrecomputable_from_saved_probabilities": [
+        "Experiment-holdout probabilities were not archived",
+        "Marker-removal probabilities were not archived",
+        "Archived fitted checkpoints and fold-specific transforms were not saved"
+      ]
+    },
+    "synthetic": {
+      "scenarios": [
+        "additive",
+        "synergy",
+        "redundant",
+        "stress_interaction",
+        "unseen_synergy",
+        "no_causal_effect"
+      ],
+      "seeds_per_scenario": 20,
+      "model_rows": 480,
+      "ranking_rows": 600,
+      "all_summary_cells_match": true,
+      "saved_policy_regret_recomputed_from_action_truth": true,
+      "units": "arbitrary simulator units",
+      "limitations": [
+        "Per-sample synthetic model predictions were not archived, so RMSE inputs and ranking orders cannot be independently reconstructed from saved summary rows alone.",
+        "Identity eligibility uses simulator truth; results cannot identify biological targets."
+      ]
+    }
+  },
+  "archive_vs_replay": {
+    "same_public_samples": true,
+    "max_abs_probability_difference": 0.0,
+    "identical_public_prediction_sha256": true,
+    "result_files": [
+      {
+        "path": "public_association_genes.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "public_marker_changes.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "public_predictions.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "public_permutation_null.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "synthetic_runs.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "synthetic_rankings.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "synthetic_summary.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "synthetic_ranking_summary.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "prospective_power.csv",
+        "byte_identical": true
+      },
+      {
+        "path": "public_summary.json",
+        "byte_identical": true
+      },
+      {
+        "path": "synthetic_metadata.json",
+        "byte_identical": true
+      }
+    ],
+    "source_files": [
+      {
+        "path": "pyproject.toml",
+        "byte_identical": true
+      },
+      {
+        "path": "tests/test_invariants.py",
+        "byte_identical": true
+      },
+      {
+        "path": "scripts/build_paper.py",
+        "byte_identical": true
+      },
+      {
+        "path": "scripts/make_figures.py",
+        "byte_identical": true
+      },
+      {
+        "path": "scripts/run_all.py",
+        "byte_identical": true
+      },
+      {
+        "path": "scripts/power_analysis.py",
+        "byte_identical": true
+      },
+      {
+        "path": "scripts/smoke_deep.py",
+        "byte_identical": true
+      },
+      {
+        "path": "src/cellclock/synthetic.py",
+        "byte_identical": true
+      },
+      {
+        "path": "src/cellclock/download.py",
+        "byte_identical": true
+      },
+      {
+        "path": "src/cellclock/deep_model.py",
+        "byte_identical": true
+      },
+      {
+        "path": "src/cellclock/__init__.py",
+        "byte_identical": true
+      },
+      {
+        "path": "src/cellclock/empirical.py",
+        "byte_identical": true
+      }
+    ],
+    "verdict": "PASS"
+  },
+  "verifier_source_sha256": "ba49c919504cb12023735980a9866642fbfe4fe5bbd75fcd7bf0086d58d1431f",
+  "verdict": "PASS",
+  "additional_pdf_inspection": {
+    "verdict": "PASS",
+    "javascript_found": false,
+    "manuscript_open_action": "GoTo page view (/Fit); no code execution"
+  }
+}

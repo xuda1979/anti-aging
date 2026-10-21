@@ -1,0 +1,43 @@
+{
+  "status": "prospective design not executed at scale",
+  "hypotheses": [
+    "few regulators",
+    "distributed redundant network",
+    "clock readout artifact"
+  ],
+  "regulatory_units": 10000,
+  "latent_width": 128,
+  "graph_layers": 6,
+  "modalities": [
+    "RNA",
+    "DNA methylation",
+    "chromatin accessibility",
+    "protein"
+  ],
+  "adult_age_supervision_only": true,
+  "embryonic_zero_age_labels_allowed": false,
+  "graph_edge_budget": 200000,
+  "optimization": {
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "epochs_max": 100,
+    "early_stopping_patience": 10,
+    "gradient_clip": 1.0
+  },
+  "validation": {
+    "outer_split": "donor and study",
+    "held_out_tissue": true,
+    "held_out_perturbation": true,
+    "combination_holdout": true
+  },
+  "candidate_screen": {
+    "initial_candidates": 200,
+    "confirmation_candidates": 20,
+    "discovery_donors": 8,
+    "confirmation_donors": 30,
+    "independent_guides_per_target": 3,
+    "cell_identity_noninferiority_sd": 0.25
+  },
+  "healthspan_or_lifespan_claims_from_clock_alone_allowed": false
+}

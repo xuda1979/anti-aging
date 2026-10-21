@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+data/raw/*
+!data/raw/README.md
+paper/build/
+*.aux
+*.log
+!results/unit_tests.log
+!results/deep_smoke.log
+*.out
+*.toc
+.DS_Store

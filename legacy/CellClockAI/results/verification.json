@@ -1,0 +1,25 @@
+{
+  "unit_tests": {
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0
+  },
+  "optional_graph_smoke": {
+    "status": "passed",
+    "steps": 3,
+    "data": "invented_tensors_only",
+    "framework": "PyTorch 2.5.1+cpu"
+  },
+  "scientific_pilots": {
+    "public_donors": 3,
+    "public_samples": 34,
+    "simulation_settings": 120,
+    "simulation_model_fits": 480
+  },
+  "biologically_trained_graph_model": false,
+  "human_rejuvenation_target_validated": false,
+  "paper_pages": 16,
+  "figures": 5,
+  "references_verified": 25,
+  "ci_status": "configured; remote run pending repository upload"
+}

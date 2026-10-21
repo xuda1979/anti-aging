@@ -1,0 +1,10 @@
+{
+  "name": "prospective_power",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "scripts/power_analysis.py"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 2.8984121720004623,
+  "completed_utc": "2026-10-21T04:32:04.984351+00:00"
+}

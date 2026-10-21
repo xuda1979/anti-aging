@@ -1,0 +1,8 @@
+{
+  "verdict": "PASS",
+  "archive_integrity": "PASS",
+  "archive_metrics": "PASS",
+  "archive_checks": 585,
+  "fresh_replay": "PASS",
+  "failure": null
+}

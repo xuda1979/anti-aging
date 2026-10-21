@@ -1,0 +1,19 @@
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\AtBeginEnvironment{enumerate}{\small}
+\captionsetup{font=small,labelfont=bf}
+\AtBeginDocument{\hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,citecolor=black}}
+\setlength{\emergencystretch}{3em}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{15pt}
+\widowpenalty=10000
+\clubpenalty=10000
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Cellular age resetting with AI}
+\fancyhead[R]{\small Research framework and pilots}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}

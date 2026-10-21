@@ -1,0 +1,11 @@
+accession,context,modality,status,source_url,publication_doi
+GSE49828,human embryo,DNA methylation,prospective,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE49828,10.1038/nature13544
+GSE121708,mouse gastrulation,single cell multiomics,prospective,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE121708,10.1038/s41586-019-1825-8
+GSE165177,human fibroblast recovery,RNA sequencing,executed,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165177,10.7554/eLife.71624
+GSE165179,human fibroblast reprogramming,DNA methylation,prospective,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165179,10.7554/eLife.71624
+GSE113957,human donor age reference,RNA sequencing,prospective,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113957,10.1186/s13059-018-1599-6
+GSE197437,mouse partial reprogramming,single cell RNA,prospective,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197437,10.1016/j.cels.2022.05.002
+GSE132042,mouse adult ageing,single cell RNA,prospective,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132042,10.1038/s41586-020-2496-1
+GSE133344,K562 combinatorial CRISPRa,Perturb seq,prospective,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133344,10.1126/science.aax4438
+Figshare 20029387,K562 and RPE1 CRISPRi,Perturb seq,prospective,https://plus.figshare.com/articles/dataset/20029387,10.1016/j.cell.2022.05.013
+GSE292885,mammalian ageing reference,RNA sequencing,prospective,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE292885,10.1038/s41586-026-10542-3

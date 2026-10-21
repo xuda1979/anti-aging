@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: Please cite the manuscript and the original public datasets when using this project.
+title: Identifying the regulatory mechanisms of cellular age resetting with artificial intelligence
+authors:
+  - family-names: Xu
+    given-names: Da
+version: 0.1.0
+date-released: 2026-10-13
+type: software
+abstract: Research framework with a public fibroblast expression pilot and explicitly synthetic causal benchmarks. No validated human rejuvenation target or lifespan effect is claimed.

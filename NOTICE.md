@@ -8,3 +8,5 @@ Original downloaded matrices are not redistributed here. Retrieval scripts, sour
 
 Only nonconfidential scientific and planning materials are published. Private emails, contact lists, investor responses, outreach logs and authentication information are excluded.
 
+The recovered historical `legacy/CellClockAI/` files preserve their original bytes, `Da Xu` attribution, MIT code license and separate CC BY 4.0 manuscript/figure terms. See that directory's `LICENSE` and the fresh `legacy/REPRODUCTION.md` record. Historical affiliation text is retained as source provenance and does not establish current institutional sponsorship. Third-party data terms are unchanged. The new adult study and current three-author business documents are separate artifacts.
+

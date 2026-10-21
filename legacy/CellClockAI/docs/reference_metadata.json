@@ -1,0 +1,1102 @@
+[
+  {
+    "doi": "10.1126/sciadv.abg6082",
+    "metadata": {
+      "id": "34172448",
+      "source": "MED",
+      "pmid": "34172448",
+      "pmcid": "PMC8232908",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8232908"
+        ]
+      },
+      "doi": "10.1126/sciadv.abg6082",
+      "title": "Epigenetic clocks reveal a rejuvenation event during embryogenesis followed by aging.",
+      "authorString": "Kerepesi C, Zhang B, Lee SG, Trapp A, Gladyshev VN.",
+      "journalTitle": "Sci Adv",
+      "issue": "26",
+      "journalVolume": "7",
+      "pubYear": "2021",
+      "journalIssn": "2375-2548",
+      "pageInfo": "eabg6082",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 93,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "gen",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2021-06-25",
+      "firstIndexDate": "2021-06-27"
+    }
+  },
+  {
+    "doi": "10.1111/acel.13922",
+    "metadata": {
+      "id": "37786333",
+      "source": "MED",
+      "pmid": "37786333",
+      "pmcid": "PMC10577537",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC10577537"
+        ]
+      },
+      "doi": "10.1111/acel.13922",
+      "title": "Intersection clock reveals a rejuvenation event during human embryogenesis.",
+      "authorString": "Kerepesi C, Gladyshev VN.",
+      "journalTitle": "Aging Cell",
+      "issue": "10",
+      "journalVolume": "22",
+      "pubYear": "2023",
+      "journalIssn": "1474-9718; 1474-9726; ",
+      "pageInfo": "e13922",
+      "pubType": "brief-report; research support, non-u.s. gov't; journal article; research support, n.i.h., extramural",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 18,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2023-10-02",
+      "firstIndexDate": "2023-10-04"
+    }
+  },
+  {
+    "doi": "10.1186/gb-2013-14-10-r115",
+    "metadata": {
+      "id": "24138928",
+      "source": "MED",
+      "pmid": "24138928",
+      "pmcid": "PMC4015143",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4015143"
+        ]
+      },
+      "doi": "10.1186/gb-2013-14-10-r115",
+      "title": "DNA methylation age of human tissues and cell types.",
+      "authorString": "Horvath S.",
+      "journalTitle": "Genome Biol",
+      "issue": "10",
+      "journalVolume": "14",
+      "pubYear": "2013",
+      "journalIssn": "1474-7596; 1474-760x; 1465-6906; ",
+      "pageInfo": "R115",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 5694,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "gen",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2013-01-01",
+      "firstIndexDate": "2013-10-22"
+    }
+  },
+  {
+    "doi": "10.1038/nature13544",
+    "metadata": {
+      "id": "25079557",
+      "source": "MED",
+      "pmid": "25079557",
+      "doi": "10.1038/nature13544",
+      "title": "The DNA methylation landscape of human early embryos.",
+      "authorString": "Guo H, Zhu P, Yan L, Li R, Hu B, Lian Y, Yan J, Ren X, Lin S, Li J, Jin X, Shi X, Liu P, Wang X, Wang W, Wei Y, Li X, Guo F, Wu X, Fan X, Yong J, Wen L, Xie SX, Tang F, Qiao J.",
+      "journalTitle": "Nature",
+      "issue": "7511",
+      "journalVolume": "511",
+      "pubYear": "2014",
+      "journalIssn": "0028-0836; 1476-4687; ",
+      "pageInfo": "606-610",
+      "pubType": "research support, non-u.s. gov't; journal article",
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 735,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "ARXPR",
+          "EMBL"
+        ]
+      },
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2014-07-23",
+      "firstIndexDate": "2014-08-01"
+    }
+  },
+  {
+    "doi": "10.1038/s41586-019-1825-8",
+    "metadata": {
+      "id": "31827285",
+      "source": "MED",
+      "pmid": "31827285",
+      "pmcid": "PMC6924995",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6924995"
+        ]
+      },
+      "doi": "10.1038/s41586-019-1825-8",
+      "title": "Multi-omics profiling of mouse gastrulation at single-cell resolution.",
+      "authorString": "Argelaguet R, Clark SJ, Mohammed H, Stapel LC, Krueger C, Kapourani CA, Imaz-Rosshandler I, Lohoff T, Xiang Y, Hanna CW, Smallwood S, Ibarra-Soria X, Buettner F, Sanguinetti G, Xie W, Krueger F, G\u00f6ttgens B, Rugg-Gunn PJ, Kelsey G, Dean W, Nichols J, Stegle O, Marioni JC, Reik W.",
+      "journalTitle": "Nature",
+      "issue": "7787",
+      "journalVolume": "576",
+      "pubYear": "2019",
+      "journalIssn": "0028-0836; 1476-4687; ",
+      "pageInfo": "487-491",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 403,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2019-12-11",
+      "firstIndexDate": "2019-12-13"
+    }
+  },
+  {
+    "doi": "10.7554/eLife.71624",
+    "metadata": {
+      "id": "35390271",
+      "source": "MED",
+      "pmid": "35390271",
+      "pmcid": "PMC9023058",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9023058"
+        ]
+      },
+      "doi": "10.7554/elife.71624",
+      "title": "Multi-omic rejuvenation of human cells by maturation phase transient reprogramming.",
+      "authorString": "Gill D, Parry A, Santos F, Okkenhaug H, Todd CD, Hernando-Herraez I, Stubbs TM, Milagre I, Reik W.",
+      "journalTitle": "Elife",
+      "journalVolume": "11",
+      "pubYear": "2022",
+      "journalIssn": "2050-084x",
+      "pageInfo": "e71624",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 143,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "igsr",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2022-04-08",
+      "firstIndexDate": "2022-04-11"
+    }
+  },
+  {
+    "doi": "10.1016/j.cels.2022.05.002",
+    "metadata": {
+      "id": "35690067",
+      "source": "MED",
+      "pmid": "35690067",
+      "doi": "10.1016/j.cels.2022.05.002",
+      "title": "Diverse partial reprogramming strategies restore youthful gene expression and transiently suppress cell identity.",
+      "authorString": "Roux AE, Zhang C, Paw J, Zavala-Solorio J, Malahias E, Vijay T, Kolumam G, Kenyon C, Kimmel JC.",
+      "journalTitle": "Cell Syst",
+      "issue": "7",
+      "journalVolume": "13",
+      "pubYear": "2022",
+      "journalIssn": "2405-4712; 2405-4720; ",
+      "pageInfo": "574-587.e11",
+      "pubType": "research support, non-u.s. gov't; journal article",
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 57,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2022-06-10",
+      "firstIndexDate": "2022-06-12"
+    }
+  },
+  {
+    "doi": "10.1186/s13059-018-1599-6",
+    "metadata": {
+      "id": "30567591",
+      "source": "MED",
+      "pmid": "30567591",
+      "pmcid": "PMC6300908",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6300908"
+        ]
+      },
+      "doi": "10.1186/s13059-018-1599-6",
+      "title": "Predicting age from the transcriptome of human dermal fibroblasts.",
+      "authorString": "Fleischer JG, Schulte R, Tsai HH, Tyagi S, Ibarra A, Shokhirev MN, Huang L, Hetzer MW, Navlakha S.",
+      "journalTitle": "Genome Biol",
+      "issue": "1",
+      "journalVolume": "19",
+      "pubYear": "2018",
+      "journalIssn": "1474-7596; 1474-760x; ",
+      "pageInfo": "221",
+      "pubType": "research support, non-u.s. gov't; research-article; evaluation study; journal article; research support, n.i.h., extramural",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 193,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "arrayexpress",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2018-12-20",
+      "firstIndexDate": "2018-12-31"
+    }
+  },
+  {
+    "doi": "10.1038/s41586-020-2496-1",
+    "metadata": {
+      "id": "32669714",
+      "source": "MED",
+      "pmid": "32669714",
+      "pmcid": "PMC8240505",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8240505"
+        ]
+      },
+      "doi": "10.1038/s41586-020-2496-1",
+      "title": "A single-cell transcriptomic atlas characterizes ageing tissues in the mouse.",
+      "authorString": "Tabula Muris Consortium.",
+      "journalTitle": "Nature",
+      "issue": "7817",
+      "journalVolume": "583",
+      "pubYear": "2020",
+      "journalIssn": "0028-0836; 1476-4687; ",
+      "pageInfo": "590-595",
+      "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 1111,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2020-07-15",
+      "firstIndexDate": "2020-07-17"
+    }
+  },
+  {
+    "doi": "10.1016/j.cell.2016.11.052",
+    "metadata": {
+      "id": "27984723",
+      "source": "MED",
+      "pmid": "27984723",
+      "pmcid": "PMC5679279",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5679279"
+        ]
+      },
+      "doi": "10.1016/j.cell.2016.11.052",
+      "title": "In\u00a0Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming.",
+      "authorString": "Ocampo A, Reddy P, Martinez-Redondo P, Platero-Luengo A, Hatanaka F, Hishida T, Li M, Lam D, Kurita M, Beyret E, Araoka T, Vazquez-Ferrer E, Donoso D, Roman JL, Xu J, Rodriguez Esteban C, Nu\u00f1ez G, Nu\u00f1ez Delicado E, Campistol JM, Guillen I, Guillen P, Izpisua Belmonte JC.",
+      "journalTitle": "Cell",
+      "issue": "7",
+      "journalVolume": "167",
+      "pubYear": "2016",
+      "journalIssn": "0092-8674; 1097-4172; ",
+      "pageInfo": "1719-1733.e12",
+      "pubType": "article-commentary; comment; journal article",
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 772,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2016-12-01",
+      "firstIndexDate": "2016-12-20"
+    }
+  },
+  {
+    "doi": "10.1038/s41586-020-2975-4",
+    "metadata": {
+      "id": "33268865",
+      "source": "MED",
+      "pmid": "33268865",
+      "pmcid": "PMC7752134",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7752134"
+        ]
+      },
+      "doi": "10.1038/s41586-020-2975-4",
+      "title": "Reprogramming to recover youthful epigenetic information and restore vision.",
+      "authorString": "Lu Y, Brommer B, Tian X, Krishnan A, Meer M, Wang C, Vera DL, Zeng Q, Yu D, Bonkowski MS, Yang JH, Zhou S, Hoffmann EM, Karg MM, Schultz MB, Kane AE, Davidsohn N, Korobkina E, Chwalek K, Rajman LA, Church GM, Church GM, Hochedlinger K, Gladyshev VN, Horvath S, Levine ME, Gregory-Ksander MS, Ksander BR, He Z, Sinclair DA.",
+      "journalTitle": "Nature",
+      "issue": "7836",
+      "journalVolume": "588",
+      "pubYear": "2020",
+      "journalIssn": "0028-0836; 1476-4687; ",
+      "pageInfo": "124-129",
+      "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 677,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "bioproject",
+          "gen",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2020-12-02",
+      "firstIndexDate": "2020-12-04"
+    }
+  },
+  {
+    "doi": "10.1038/s43587-023-00557-0",
+    "metadata": {
+      "id": "38243142",
+      "source": "MED",
+      "pmid": "38243142",
+      "pmcid": "PMC11070280",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11070280"
+        ]
+      },
+      "doi": "10.1038/s43587-023-00557-0",
+      "title": "Causality-enriched epigenetic age uncouples damage and adaptation.",
+      "authorString": "Ying K, Liu H, Tarkhov AE, Sadler MC, Lu AT, Moqri M, Horvath S, Kutalik Z, Shen X, Gladyshev VN.",
+      "journalTitle": "Nat Aging",
+      "issue": "2",
+      "journalVolume": "4",
+      "pubYear": "2024",
+      "journalIssn": "2662-8465",
+      "pageInfo": "231-246",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 208,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "dbgap",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2024-01-19",
+      "firstIndexDate": "2024-01-20"
+    }
+  },
+  {
+    "doi": "10.1038/s43587-024-00619-x",
+    "metadata": {
+      "id": "38724736",
+      "source": "MED",
+      "pmid": "38724736",
+      "pmcid": "PMC11186771",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11186771"
+        ]
+      },
+      "doi": "10.1038/s43587-024-00619-x",
+      "title": "Aging clocks based on accumulating stochastic variation.",
+      "authorString": "Meyer DH, Schumacher B.",
+      "journalTitle": "Nat Aging",
+      "issue": "6",
+      "journalVolume": "4",
+      "pubYear": "2024",
+      "journalIssn": "2662-8465",
+      "pageInfo": "871-885",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 131,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2024-05-09",
+      "firstIndexDate": "2024-05-10"
+    }
+  },
+  {
+    "doi": "10.1038/s41586-023-06139-9",
+    "metadata": {
+      "id": "37258680",
+      "source": "MED",
+      "pmid": "37258680",
+      "pmcid": "PMC10949956",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC10949956"
+        ]
+      },
+      "doi": "10.1038/s41586-023-06139-9",
+      "title": "Transfer learning enables predictions in network biology.",
+      "authorString": "Theodoris CV, Xiao L, Chopra A, Chaffin MD, Al Sayed ZR, Hill MC, Mantineo H, Brydon EM, Zeng Z, Liu XS, Ellinor PT.",
+      "journalTitle": "Nature",
+      "issue": "7965",
+      "journalVolume": "618",
+      "pubYear": "2023",
+      "journalIssn": "0028-0836; 1476-4687; ",
+      "pageInfo": "616-624",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 866,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2023-05-31",
+      "firstIndexDate": "2023-06-03"
+    }
+  },
+  {
+    "doi": "10.1038/s41592-024-02201-0",
+    "metadata": {
+      "id": "38409223",
+      "source": "MED",
+      "pmid": "38409223",
+      "doi": "10.1038/s41592-024-02201-0",
+      "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI.",
+      "authorString": "Cui H, Wang C, Maan H, Pang K, Luo F, Duan N, Wang B.",
+      "journalTitle": "Nat Methods",
+      "issue": "8",
+      "journalVolume": "21",
+      "pubYear": "2024",
+      "journalIssn": "1548-7091; 1548-7105; ",
+      "pageInfo": "1470-1480",
+      "pubType": "journal article",
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1132,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2024-02-26",
+      "firstIndexDate": "2024-02-27"
+    }
+  },
+  {
+    "doi": "10.1126/science.aax4438",
+    "metadata": {
+      "id": "31395745",
+      "source": "MED",
+      "pmid": "31395745",
+      "pmcid": "PMC6746554",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6746554"
+        ]
+      },
+      "doi": "10.1126/science.aax4438",
+      "title": "Exploring genetic interaction manifolds constructed from rich single-cell phenotypes.",
+      "authorString": "Norman TM, Horlbeck MA, Replogle JM, Ge AY, Xu A, Jost M, Gilbert LA, Weissman JS.",
+      "journalTitle": "Science",
+      "issue": "6455",
+      "journalVolume": "365",
+      "pubYear": "2019",
+      "journalIssn": "0036-8075; 1095-9203; ",
+      "pageInfo": "786-793",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 324,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2019-08-08",
+      "firstIndexDate": "2019-08-10"
+    }
+  },
+  {
+    "doi": "10.1016/j.cell.2022.05.013",
+    "metadata": {
+      "id": "35688146",
+      "source": "MED",
+      "pmid": "35688146",
+      "pmcid": "PMC9380471",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9380471"
+        ]
+      },
+      "doi": "10.1016/j.cell.2022.05.013",
+      "title": "Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq.",
+      "authorString": "Replogle JM, Saunders RA, Pogson AN, Hussmann JA, Lenail A, Guna A, Mascibroda L, Wagner EJ, Adelman K, Lithwick-Yanai G, Iremadze N, Oberstrass F, Lipson D, Bonnar JL, Jost M, Norman TM, Weissman JS.",
+      "journalTitle": "Cell",
+      "issue": "14",
+      "journalVolume": "185",
+      "pubYear": "2022",
+      "journalIssn": "0092-8674; 1097-4172; ",
+      "pageInfo": "2559-2575.e28",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article; research support, n.i.h., extramural",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 769,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "geo",
+          "gen",
+          "hpa"
+        ]
+      },
+      "firstPublicationDate": "2022-06-09",
+      "firstIndexDate": "2022-06-11"
+    }
+  },
+  {
+    "doi": "10.1038/s41587-023-01905-6",
+    "metadata": {
+      "id": "37592036",
+      "source": "MED",
+      "pmid": "37592036",
+      "pmcid": "PMC11180609",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11180609"
+        ]
+      },
+      "doi": "10.1038/s41587-023-01905-6",
+      "title": "Predicting transcriptional outcomes of novel multigene perturbations with GEARS.",
+      "authorString": "Roohani Y, Huang K, Leskovec J.",
+      "journalTitle": "Nat Biotechnol",
+      "issue": "6",
+      "journalVolume": "42",
+      "pubYear": "2024",
+      "journalIssn": "1087-0156; 1546-1696; ",
+      "pageInfo": "927-935",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 339,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2023-08-17",
+      "firstIndexDate": "2023-08-19"
+    }
+  },
+  {
+    "doi": "10.1038/s41592-025-02772-6",
+    "metadata": {
+      "id": "40759747",
+      "source": "MED",
+      "pmid": "40759747",
+      "pmcid": "PMC12328236",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12328236"
+        ]
+      },
+      "doi": "10.1038/s41592-025-02772-6",
+      "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines.",
+      "authorString": "Ahlmann-Eltze C, Huber W, Anders S.",
+      "journalTitle": "Nat Methods",
+      "issue": "8",
+      "journalVolume": "22",
+      "pubYear": "2025",
+      "journalIssn": "1548-7091; 1548-7105; ",
+      "pageInfo": "1657-1661",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 193,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2025-08-04",
+      "firstIndexDate": "2025-08-05"
+    }
+  },
+  {
+    "doi": "10.1038/s41587-025-02777-8",
+    "metadata": {
+      "id": "40854979",
+      "source": "MED",
+      "pmid": "40854979",
+      "pmcid": "PMC13271886",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13271886"
+        ]
+      },
+      "doi": "10.1038/s41587-025-02777-8",
+      "title": "Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation.",
+      "authorString": "Vi\u00f1as Torn\u00e9 R, Wiatrak M, Piran Z, Fan S, Jiang L, Teichmann SA, Nitzan M, Brbi\u0107 M.",
+      "journalTitle": "Nat Biotechnol",
+      "issue": "6",
+      "journalVolume": "44",
+      "pubYear": "2026",
+      "journalIssn": "1087-0156; 1546-1696; ",
+      "pageInfo": "1050-1059",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 31,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2025-08-25",
+      "firstIndexDate": "2025-08-26"
+    }
+  },
+  {
+    "doi": "10.1038/s41586-026-10542-3",
+    "metadata": {
+      "id": "42203874",
+      "source": "MED",
+      "pmid": "42203874",
+      "pmcid": "PMC13233323",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13233323"
+        ]
+      },
+      "doi": "10.1038/s41586-026-10542-3",
+      "title": "Universal transcriptomic hallmarks of mammalian ageing and mortality.",
+      "authorString": "Tyshkovskiy A, Kholdina D, Davitadze M, Moli\u00e8re A, Moldakozhayev A, Tongu Y, Kasahara T, Glubokov D, Eames A, Kats LM, Vladimirova A, Ying K, Liu H, Zhang B, Khasanova U, Moqri M, Van Raamsdonk JM, Harrison DE, Strong R, Abe T, Dmitriev SE, Gladyshev VN.",
+      "journalTitle": "Nature",
+      "issue": "8117",
+      "journalVolume": "654",
+      "pubYear": "2026",
+      "journalIssn": "0028-0836; 1476-4687; ",
+      "pageInfo": "173-188",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 21,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "bioproject",
+          "arrayexpress",
+          "dbgap",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2026-05-27",
+      "firstIndexDate": "2026-05-28"
+    }
+  },
+  {
+    "doi": "10.1038/s41586-026-10955-0",
+    "metadata": {
+      "id": "42816559",
+      "source": "MED",
+      "pmid": "42816559",
+      "doi": "10.1038/s41586-026-10955-0",
+      "title": "Written in development and lost in ageing: the grammar of cellular identity.",
+      "authorString": "Y\u00fccel AD, Moli\u00e8re A, Gladyshev VN.",
+      "journalTitle": "Nature",
+      "issue": "8134",
+      "journalVolume": "658",
+      "pubYear": "2026",
+      "journalIssn": "0028-0836; 1476-4687; ",
+      "pageInfo": "45-54",
+      "pubType": "review; journal article",
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2026-09-30",
+      "firstIndexDate": "2026-10-01"
+    }
+  },
+  {
+    "doi": "10.1038/s43587-025-00841-1",
+    "metadata": {
+      "id": "40128456",
+      "source": "MED",
+      "pmid": "40128456",
+      "pmcid": "PMC12176646",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12176646"
+        ]
+      },
+      "doi": "10.1038/s43587-025-00841-1",
+      "title": "Epigenetic editing at individual age-associated CpGs affects the genome-wide epigenetic aging landscape.",
+      "authorString": "Liesenfelder S, Elsafi Mabrouk MH, Iliescu J, Baranda MV, Mizi A, Perez-Correa JF, Wessiepe M, Papantonis A, Wagner W.",
+      "journalTitle": "Nat Aging",
+      "issue": "6",
+      "journalVolume": "5",
+      "pubYear": "2025",
+      "journalIssn": "2662-8465",
+      "pageInfo": "997-1009",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 31,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2025-03-24",
+      "firstIndexDate": "2025-03-26"
+    }
+  },
+  {
+    "doi": "10.1038/s43587-024-00649-5",
+    "metadata": {
+      "id": "38867059",
+      "source": "MED",
+      "pmid": "38867059",
+      "pmcid": "PMC11333289",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC11333289"
+        ]
+      },
+      "doi": "10.1038/s43587-024-00649-5",
+      "title": "Conserved epigenetic hallmarks of T cell aging during immunity and malignancy.",
+      "authorString": "Mi T, Soerens AG, Alli S, Kang TG, Vasandan AB, Wang Z, Vezys V, Kimura S, Iacobucci I, Baylin SB, Jones PA, Hiner C, Mueller A, Goldstein H, Mullighan CG, Zebley CC, Masopust D, Youngblood B.",
+      "journalTitle": "Nat Aging",
+      "issue": "8",
+      "journalVolume": "4",
+      "pubYear": "2024",
+      "journalIssn": "2662-8465",
+      "pageInfo": "1053-1063",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 23,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2024-06-12",
+      "firstIndexDate": "2024-06-14"
+    }
+  },
+  {
+    "doi": "10.7554/eLife.73420",
+    "metadata": {
+      "id": "35029144",
+      "source": "MED",
+      "pmid": "35029144",
+      "pmcid": "PMC8853656",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8853656"
+        ]
+      },
+      "doi": "10.7554/elife.73420",
+      "title": "DunedinPACE, a DNA methylation biomarker of the pace of aging.",
+      "authorString": "Belsky DW, Caspi A, Corcoran DL, Sugden K, Poulton R, Arseneault L, Baccarelli A, Chamarti K, Gao X, Hannon E, Harrington HL, Houts R, Kothari M, Kwon D, Mill J, Schwartz J, Vokonas P, Wang C, Williams BS, Moffitt TE.",
+      "journalTitle": "Elife",
+      "journalVolume": "11",
+      "pubYear": "2022",
+      "journalIssn": "2050-084x",
+      "pageInfo": "e73420",
+      "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article; research support, n.i.h., extramural",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 1000,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "dbgap",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2022-01-14",
+      "firstIndexDate": "2022-01-15"
+    }
+  }
+]

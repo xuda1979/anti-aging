@@ -1,0 +1,16 @@
+{
+  "name": "scientific_replay",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "scripts/run_all.py",
+    "--only",
+    "all",
+    "--seeds",
+    "20",
+    "--permutations",
+    "100"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 107.39226455799962,
+  "completed_utc": "2026-10-21T04:32:02.085527+00:00"
+}

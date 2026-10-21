@@ -1,0 +1,226 @@
+{
+  "evidence_type": "public_data_association_pilot",
+  "accession": "GSE165177",
+  "n_samples": 34,
+  "n_genes_after_aggregation": 35723,
+  "n_donors": 3,
+  "class_counts": {
+    "0": 21,
+    "1": 13
+  },
+  "n_matched_blocks": 13,
+  "leave_one_donor_out": {
+    "auroc": 1.0,
+    "balanced_accuracy": 1.0,
+    "folds": [
+      {
+        "heldout": "O1",
+        "n_train": 25,
+        "n_test": 9,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "O2",
+        "n_train": 23,
+        "n_test": 11,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "O3",
+        "n_train": 20,
+        "n_test": 14,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      }
+    ]
+  },
+  "leave_one_experiment_out": {
+    "auroc": 1.0,
+    "balanced_accuracy": 1.0,
+    "folds": [
+      {
+        "heldout": "1",
+        "n_train": 19,
+        "n_test": 15,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "2",
+        "n_train": 15,
+        "n_test": 19,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      }
+    ]
+  },
+  "remove_selected_marker_genes": {
+    "auroc": 1.0,
+    "balanced_accuracy": 1.0,
+    "folds": [
+      {
+        "heldout": "O1",
+        "n_train": 25,
+        "n_test": 9,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "O2",
+        "n_train": 23,
+        "n_test": 11,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "O3",
+        "n_train": 20,
+        "n_test": 14,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      }
+    ]
+  },
+  "removed_marker_features": 19,
+  "permutations": 100,
+  "permutation_null_mean_auroc": 0.5376923076923077,
+  "permutation_p": 0.009900990099009901,
+  "limitations": [
+    "Three independent donors only",
+    "Treatment classification is not age measurement",
+    "Post-treatment sorting may select responsive cells",
+    "No gene-specific interventions",
+    "Marker removal is not complete cell-cycle adjustment"
+  ]
+}
+synthetic additive seed 1/20
+synthetic additive seed 2/20
+synthetic additive seed 3/20
+synthetic additive seed 4/20
+synthetic additive seed 5/20
+synthetic additive seed 6/20
+synthetic additive seed 7/20
+synthetic additive seed 8/20
+synthetic additive seed 9/20
+synthetic additive seed 10/20
+synthetic additive seed 11/20
+synthetic additive seed 12/20
+synthetic additive seed 13/20
+synthetic additive seed 14/20
+synthetic additive seed 15/20
+synthetic additive seed 16/20
+synthetic additive seed 17/20
+synthetic additive seed 18/20
+synthetic additive seed 19/20
+synthetic additive seed 20/20
+synthetic synergy seed 1/20
+synthetic synergy seed 2/20
+synthetic synergy seed 3/20
+synthetic synergy seed 4/20
+synthetic synergy seed 5/20
+synthetic synergy seed 6/20
+synthetic synergy seed 7/20
+synthetic synergy seed 8/20
+synthetic synergy seed 9/20
+synthetic synergy seed 10/20
+synthetic synergy seed 11/20
+synthetic synergy seed 12/20
+synthetic synergy seed 13/20
+synthetic synergy seed 14/20
+synthetic synergy seed 15/20
+synthetic synergy seed 16/20
+synthetic synergy seed 17/20
+synthetic synergy seed 18/20
+synthetic synergy seed 19/20
+synthetic synergy seed 20/20
+synthetic redundant seed 1/20
+synthetic redundant seed 2/20
+synthetic redundant seed 3/20
+synthetic redundant seed 4/20
+synthetic redundant seed 5/20
+synthetic redundant seed 6/20
+synthetic redundant seed 7/20
+synthetic redundant seed 8/20
+synthetic redundant seed 9/20
+synthetic redundant seed 10/20
+synthetic redundant seed 11/20
+synthetic redundant seed 12/20
+synthetic redundant seed 13/20
+synthetic redundant seed 14/20
+synthetic redundant seed 15/20
+synthetic redundant seed 16/20
+synthetic redundant seed 17/20
+synthetic redundant seed 18/20
+synthetic redundant seed 19/20
+synthetic redundant seed 20/20
+synthetic stress_interaction seed 1/20
+synthetic stress_interaction seed 2/20
+synthetic stress_interaction seed 3/20
+synthetic stress_interaction seed 4/20
+synthetic stress_interaction seed 5/20
+synthetic stress_interaction seed 6/20
+synthetic stress_interaction seed 7/20
+synthetic stress_interaction seed 8/20
+synthetic stress_interaction seed 9/20
+synthetic stress_interaction seed 10/20
+synthetic stress_interaction seed 11/20
+synthetic stress_interaction seed 12/20
+synthetic stress_interaction seed 13/20
+synthetic stress_interaction seed 14/20
+synthetic stress_interaction seed 15/20
+synthetic stress_interaction seed 16/20
+synthetic stress_interaction seed 17/20
+synthetic stress_interaction seed 18/20
+synthetic stress_interaction seed 19/20
+synthetic stress_interaction seed 20/20
+synthetic unseen_synergy seed 1/20
+synthetic unseen_synergy seed 2/20
+synthetic unseen_synergy seed 3/20
+synthetic unseen_synergy seed 4/20
+synthetic unseen_synergy seed 5/20
+synthetic unseen_synergy seed 6/20
+synthetic unseen_synergy seed 7/20
+synthetic unseen_synergy seed 8/20
+synthetic unseen_synergy seed 9/20
+synthetic unseen_synergy seed 10/20
+synthetic unseen_synergy seed 11/20
+synthetic unseen_synergy seed 12/20
+synthetic unseen_synergy seed 13/20
+synthetic unseen_synergy seed 14/20
+synthetic unseen_synergy seed 15/20
+synthetic unseen_synergy seed 16/20
+synthetic unseen_synergy seed 17/20
+synthetic unseen_synergy seed 18/20
+synthetic unseen_synergy seed 19/20
+synthetic unseen_synergy seed 20/20
+synthetic no_causal_effect seed 1/20
+synthetic no_causal_effect seed 2/20
+synthetic no_causal_effect seed 3/20
+synthetic no_causal_effect seed 4/20
+synthetic no_causal_effect seed 5/20
+synthetic no_causal_effect seed 6/20
+synthetic no_causal_effect seed 7/20
+synthetic no_causal_effect seed 8/20
+synthetic no_causal_effect seed 9/20
+synthetic no_causal_effect seed 10/20
+synthetic no_causal_effect seed 11/20
+synthetic no_causal_effect seed 12/20
+synthetic no_causal_effect seed 13/20
+synthetic no_causal_effect seed 14/20
+synthetic no_causal_effect seed 15/20
+synthetic no_causal_effect seed 16/20
+synthetic no_causal_effect seed 17/20
+synthetic no_causal_effect seed 18/20
+synthetic no_causal_effect seed 19/20
+synthetic no_causal_effect seed 20/20
+completed in 103.6s

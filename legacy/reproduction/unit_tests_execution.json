@@ -1,0 +1,15 @@
+{
+  "name": "unit_tests",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 4.132293745999959,
+  "completed_utc": "2026-10-21T04:30:14.692831+00:00"
+}

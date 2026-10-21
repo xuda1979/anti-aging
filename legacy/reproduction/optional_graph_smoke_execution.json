@@ -1,0 +1,5 @@
+{
+  "status": "SKIPPED",
+  "reason": "Torch unavailable; no install requested",
+  "data": "Invented tensors only"
+}

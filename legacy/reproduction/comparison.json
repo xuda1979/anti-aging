@@ -1,0 +1,86 @@
+{
+  "numeric_tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-12
+  },
+  "files": [
+    {
+      "file": "public_association_genes.csv",
+      "archive_sha256": "ba893b4263cc9b59cc4e665947a94b3b543f4faa1a62b304f5b9eab3c66bb723",
+      "replay_sha256": "ba893b4263cc9b59cc4e665947a94b3b543f4faa1a62b304f5b9eab3c66bb723",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "public_marker_changes.csv",
+      "archive_sha256": "1ba4535299d32cc8b85701c4d093450f44b7582e8cb1b02284eb8c3971b47135",
+      "replay_sha256": "1ba4535299d32cc8b85701c4d093450f44b7582e8cb1b02284eb8c3971b47135",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "public_predictions.csv",
+      "archive_sha256": "e601f5f6a2193f45455b53b40d7e6f16b099eeabcd8b562722d6dbf0a03f2512",
+      "replay_sha256": "e601f5f6a2193f45455b53b40d7e6f16b099eeabcd8b562722d6dbf0a03f2512",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "public_permutation_null.csv",
+      "archive_sha256": "20c46f2e0db4ad09a1ffaa01a291c9a5a97e30f39b1296758f01de2118430d9a",
+      "replay_sha256": "20c46f2e0db4ad09a1ffaa01a291c9a5a97e30f39b1296758f01de2118430d9a",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "synthetic_runs.csv",
+      "archive_sha256": "6443e858dd5a3973bc831b16c9fbf90d6d950a5e0b398bc1e99fb92527280479",
+      "replay_sha256": "6443e858dd5a3973bc831b16c9fbf90d6d950a5e0b398bc1e99fb92527280479",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "synthetic_rankings.csv",
+      "archive_sha256": "a65ce217ec8fd491c610f3d2f701f5646400185261a5ff189cd8576a18682b3d",
+      "replay_sha256": "a65ce217ec8fd491c610f3d2f701f5646400185261a5ff189cd8576a18682b3d",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "synthetic_summary.csv",
+      "archive_sha256": "fa56d85d3d71fa8162a170301cc902b4565b36cf0563f834941b6d102127e597",
+      "replay_sha256": "fa56d85d3d71fa8162a170301cc902b4565b36cf0563f834941b6d102127e597",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "synthetic_ranking_summary.csv",
+      "archive_sha256": "b1e5a495a9b78f9b989db254207c90971ae330015caa09e5fd4c1739a7ed7eae",
+      "replay_sha256": "b1e5a495a9b78f9b989db254207c90971ae330015caa09e5fd4c1739a7ed7eae",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "prospective_power.csv",
+      "archive_sha256": "03b7bf9b756d1cd86270ce3e246dc6c5be8e9f699cae6cac13cc99bbf8e9322f",
+      "replay_sha256": "03b7bf9b756d1cd86270ce3e246dc6c5be8e9f699cae6cac13cc99bbf8e9322f",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "public_summary.json",
+      "archive_sha256": "ab808d2d91cdae634be82f8e82e9f60385ce80cb3b8e2166d967d1fbdbc6460e",
+      "replay_sha256": "ab808d2d91cdae634be82f8e82e9f60385ce80cb3b8e2166d967d1fbdbc6460e",
+      "byte_identical": true,
+      "status": "PASS"
+    },
+    {
+      "file": "synthetic_metadata.json",
+      "archive_sha256": "bd8337e94eaa2065e9822e501d9a6d01b55adb133af056ffa5c3f2a54b764e77",
+      "replay_sha256": "bd8337e94eaa2065e9822e501d9a6d01b55adb133af056ffa5c3f2a54b764e77",
+      "byte_identical": true,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,8 @@
+test_auc_and_balanced_accuracy_known_fixture (test_legacy_verifier.LegacyVerifierTests.test_auc_and_balanced_accuracy_known_fixture) ... ok
+test_saved_probability_record_corruption_rejected (test_legacy_verifier.LegacyVerifierTests.test_saved_probability_record_corruption_rejected) ... ok
+test_ties_and_nonfinite_scores (test_legacy_verifier.LegacyVerifierTests.test_ties_and_nonfinite_scores) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.034s
+
+OK

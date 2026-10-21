@@ -1,0 +1,105 @@
+{
+  "evidence_type": "public_data_association_pilot",
+  "accession": "GSE165177",
+  "n_samples": 34,
+  "n_genes_after_aggregation": 35723,
+  "n_donors": 3,
+  "class_counts": {
+    "0": 21,
+    "1": 13
+  },
+  "n_matched_blocks": 13,
+  "leave_one_donor_out": {
+    "auroc": 1.0,
+    "balanced_accuracy": 1.0,
+    "folds": [
+      {
+        "heldout": "O1",
+        "n_train": 25,
+        "n_test": 9,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "O2",
+        "n_train": 23,
+        "n_test": 11,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "O3",
+        "n_train": 20,
+        "n_test": 14,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      }
+    ]
+  },
+  "leave_one_experiment_out": {
+    "auroc": 1.0,
+    "balanced_accuracy": 1.0,
+    "folds": [
+      {
+        "heldout": "1",
+        "n_train": 19,
+        "n_test": 15,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "2",
+        "n_train": 15,
+        "n_test": 19,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      }
+    ]
+  },
+  "remove_selected_marker_genes": {
+    "auroc": 1.0,
+    "balanced_accuracy": 1.0,
+    "folds": [
+      {
+        "heldout": "O1",
+        "n_train": 25,
+        "n_test": 9,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "O2",
+        "n_train": 23,
+        "n_test": 11,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      },
+      {
+        "heldout": "O3",
+        "n_train": 20,
+        "n_test": 14,
+        "n_features": 500,
+        "auroc": 1.0,
+        "balanced_accuracy": 1.0
+      }
+    ]
+  },
+  "removed_marker_features": 19,
+  "permutations": 100,
+  "permutation_null_mean_auroc": 0.5376923076923077,
+  "permutation_p": 0.009900990099009901,
+  "limitations": [
+    "Three independent donors only",
+    "Treatment classification is not age measurement",
+    "Post-treatment sorting may select responsive cells",
+    "No gene-specific interventions",
+    "Marker removal is not complete cell-cycle adjustment"
+  ]
+}

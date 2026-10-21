@@ -1,0 +1,12 @@
+test_clock_decoy_has_no_functional_effect (test_invariants.Invariants.test_clock_decoy_has_no_functional_effect) ... ok
+test_no_intermediate_or_failed_samples_in_recovery_pilot (test_invariants.Invariants.test_no_intermediate_or_failed_samples_in_recovery_pilot) ... ok
+test_seed_reproduces_data_and_model (test_invariants.Invariants.test_seed_reproduces_data_and_model) ... ok
+test_synergy_cannot_be_seen_in_singles (test_invariants.Invariants.test_synergy_cannot_be_seen_in_singles) ... ok
+test_test_variance_cannot_change_selected_features (test_invariants.Invariants.test_test_variance_cannot_change_selected_features) ... ok
+test_unseen_pair_triggers_abstention (test_invariants.Invariants.test_unseen_pair_triggers_abstention) ... ok
+test_missing_modalities_and_gradients (test_invariants.OptionalDeepModel.test_missing_modalities_and_gradients) ... skipped 'PyTorch is not installed; optional architecture not executed'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.023s
+
+OK (skipped=1)

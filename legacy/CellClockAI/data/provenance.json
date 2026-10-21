@@ -1,0 +1,20 @@
+[
+  {
+    "accession": "GSE165177",
+    "file": "GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+    "sha256": "e6f055a491900a8f8563a339d1f18d99a92690af53d8ff44d7cc9a164b66209c",
+    "bytes": 3341131,
+    "source_type": "public_observed_RNAseq",
+    "accessed": "2026-10-13"
+  },
+  {
+    "accession": "GSE165177",
+    "file": "GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+    "sha256": "fca65676b19599491e139c583971a88f6bf2d177592d49558e57689e18e067e8",
+    "bytes": 12711125,
+    "source_type": "public_observed_RNAseq",
+    "accessed": "2026-10-13"
+  }
+]

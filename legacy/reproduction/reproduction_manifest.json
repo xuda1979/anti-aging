@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "scope": "Exact public-data treatment classifier,100labelpermutations,sixscenario\u00d720seed\u00d74model synthetic benchmark and prospective power numerical replay; not biology.",
+  "completed_utc": "2026-10-21T04:33:02.491081+00:00",
+  "source_archive_sha256": "8e0b99ec397c59b3ea58fe9f64e19e6aa8fed3dfb41f0eca726742b4761d2ace",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "raw_inputs": [
+    {
+      "file": "GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+      "bytes": 3341131,
+      "sha256": "e6f055a491900a8f8563a339d1f18d99a92690af53d8ff44d7cc9a164b66209c",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+      "actual_download_and_hash_verified_utc": "2026-10-21T04:30:14Z to 2026-10-21T04:32:02Z"
+    },
+    {
+      "file": "GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+      "bytes": 12711125,
+      "sha256": "fca65676b19599491e139c583971a88f6bf2d177592d49558e57689e18e067e8",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+      "actual_download_and_hash_verified_utc": "2026-10-21T04:30:14Z to 2026-10-21T04:32:02Z"
+    }
+  ],
+  "source_acquisition_note": "Original code hardcodes accessed=2026-10-13 in provenance output. That historical string is preserved in byte-identical source; these fresh UTC execution records establish the actual21Oct replay.",
+  "tests": {
+    "passed": 6,
+    "skipped": 1,
+    "failed": 0,
+    "skip_reason": "Optional Torch architecture unavailable; no installation performed."
+  },
+  "optional_graph_architecture_current_replay": "SKIPPED; original graphsmoke claim not newly verified",
+  "comparison": "Eleven substantive outputfiles byte-identical to archive; seecomparison.json",
+  "public_data": {
+    "samples": 34,
+    "donors": 3,
+    "aggregate_gene_features": 35723,
+    "classes": {
+      "control": 21,
+      "treated": 13
+    },
+    "donor_holdout_AUROC": 1.0,
+    "experiment_holdout_AUROC": 1.0,
+    "selected_marker_removal_AUROC": 1.0,
+    "permutations": 100
+  },
+  "synthetic": {
+    "scenarios": 6,
+    "seeds_per_scenario": 20,
+    "settings": 120,
+    "model_fits": 480,
+    "training_samples_per_setting": 900,
+    "test_samples_per_setting": 600,
+    "invented_regulator_names": true
+  },
+  "cpu_wall_seconds_scientific_replay": 107.39226455799962,
+  "cloud_usd": 0,
+  "gpu_used": false,
+  "unknown_or_not_reproduced": [
+    "Optional PyTorchgraphsmoke in currentenvironment",
+    "PaperPDF/pagination/LaTeXrebuild and literatureverification not rerun",
+    "Any biological efficacy,causalhumanmechanism,proprietarytarget,lifespanextension or clinicaloutcome"
+  ],
+  "source_archive_preserved_bytes_unchanged": true,
+  "fresh_outputs_sha256": {
+    "outputs/prospective_power.csv": "03b7bf9b756d1cd86270ce3e246dc6c5be8e9f699cae6cac13cc99bbf8e9322f",
+    "outputs/public_association_genes.csv": "ba893b4263cc9b59cc4e665947a94b3b543f4faa1a62b304f5b9eab3c66bb723",
+    "outputs/public_marker_changes.csv": "1ba4535299d32cc8b85701c4d093450f44b7582e8cb1b02284eb8c3971b47135",
+    "outputs/public_permutation_null.csv": "20c46f2e0db4ad09a1ffaa01a291c9a5a97e30f39b1296758f01de2118430d9a",
+    "outputs/public_predictions.csv": "e601f5f6a2193f45455b53b40d7e6f16b099eeabcd8b562722d6dbf0a03f2512",
+    "outputs/public_sample_manifest.csv": "bf72259f15229621ff36dbf1f513ea862f66be68988d60cdb827186e9f0d71d9",
+    "outputs/public_summary.json": "ab808d2d91cdae634be82f8e82e9f60385ce80cb3b8e2166d967d1fbdbc6460e",
+    "outputs/runtime_all.json": "2916abcec8d06717ee41815213af55a8c2771072176ee7e87f8d600bbd4cc209",
+    "outputs/synthetic_metadata.json": "bd8337e94eaa2065e9822e501d9a6d01b55adb133af056ffa5c3f2a54b764e77",
+    "outputs/synthetic_ranking_summary.csv": "b1e5a495a9b78f9b989db254207c90971ae330015caa09e5fd4c1739a7ed7eae",
+    "outputs/synthetic_rankings.csv": "a65ce217ec8fd491c610f3d2f701f5646400185261a5ff189cd8576a18682b3d",
+    "outputs/synthetic_runs.csv": "6443e858dd5a3973bc831b16c9fbf90d6d950a5e0b398bc1e99fb92527280479",
+    "outputs/synthetic_summary.csv": "fa56d85d3d71fa8162a170301cc902b4565b36cf0563f834941b6d102127e597"
+  }
+}

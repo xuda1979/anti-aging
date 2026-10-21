@@ -1,0 +1,20 @@
+{
+  "purpose": "Replay original scientific code without editing the byte-preserved archive; no new efficacy claim.",
+  "started_utc": "2026-10-21T04:30:10.526745+00:00",
+  "source_archive_sha256": "8e0b99ec397c59b3ea58fe9f64e19e6aa8fed3dfb41f0eca726742b4761d2ace",
+  "working_copy": "/workspace/scratch/3f570943700c/project_update_20261021/legacy_rerun/CellClockAI",
+  "maximum_cpu_stage_wall_seconds": 600,
+  "public_download_expected_bytes": 16052256,
+  "seeds": 20,
+  "permutations": 100,
+  "outputs": "New outputs copied to legacy/reproduction; archived legacy/CellClockAI results remain unchanged.",
+  "frozen_criteria": "Compare archived versus rerun sample accounting, predictions, donor/experiment/marker AUROC and balancedaccuracy,100labelpermutationnull and sixscenario20seed rawsyntheticmetrics. Preserve discrepancies and distinguish public treatment association, invented benchmark, optional graph smoke, prospective power.",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "torch_available": false
+}
