@@ -1,0 +1,131 @@
+{
+  "schema_id": "ascend-rnd-planning-matrix/v1",
+  "plan_date": "2026-10-21",
+  "status": "PLANNED",
+  "executable_training_configuration": false,
+  "scope": "First 30 days of the proposed anti-aging NPU research platform; all resource amounts are aggregate ceilings, not measurements or launch authorization.",
+  "authors": ["David Xu, PhD", "Peter Lee, PhD, MD", "Zhimin Zheng, PhD"],
+  "hardware": {
+    "source": "Current user-reported inventory; actual hosts have not been inspected",
+    "reported_910C_npus": 8,
+    "reported_910B_npus": 8,
+    "qualified_910C_logical_devices": null,
+    "qualified_910B_logical_devices": null,
+    "hbm_capacity_bytes": null,
+    "topology_and_interconnect": null,
+    "mixed_910B_910C_process_group_qualified": false,
+    "admission_rule": "Reconcile physical boards/chips/logical devices and qualify each same-type topology before using a world size or device-hour forecast."
+  },
+  "software_candidate": {
+    "pytorch": "2.7.1",
+    "torch_npu_package": "2.7.1.post8",
+    "torchnpu_product_release": "26.1.0",
+    "cann": "9.1.0",
+    "upstream_source_commit": "e8c7f12c5b371dfd46e919d7d6ad190dd53d4b51",
+    "target_host_support": "UNKNOWN",
+    "image_digest_C": null,
+    "image_digest_B": null,
+    "rule": "Select a product/OS/architecture/ABI/driver-supported tuple and pin each pool environment; no in-place upgrade is prescribed."
+  },
+  "budget": {
+    "unit": "allocated_runtime_visible_logical_device_hours",
+    "period": "days 1-30 after kickoff",
+    "ceiling_910C_hours": 2048,
+    "ceiling_910B_hours": 1024,
+    "ceiling_total_hours": 3072,
+    "all_seeds_retries_canaries_evaluation_and_failures_included": true,
+    "unused_budget_is_not_a_spending_target": true,
+    "first_single_device_canary_wall_hours_max": 0.5,
+    "full_job_wall_hours_max": 48,
+    "later_phase_budget": null,
+    "actual_910C_hours": null,
+    "actual_910B_hours": null
+  },
+  "reproducibility": {
+    "model_seeds": [101, 202, 303],
+    "proposed_new_split_seed": 7919,
+    "existing_frozen_protocol_is_modified": false,
+    "final_test_studies_excluded_before_pretraining": true,
+    "final_test_access": "After model/protocol selection is frozen; no architecture decisions from final-test outcomes",
+    "actual_code_data_split_environment_hashes": null
+  },
+  "experiments": [
+    {
+      "id": "P00", "status": "PLANNED", "objective": "Inventory, version qualification and communication checks",
+      "dependencies": [], "conditional": false,
+      "ceiling_910C_hours": 32, "ceiling_910B_hours": 32,
+      "evidence_required": ["Reconciled device inventory", "Supported and pinned environment tuple for each pool", "Qualified topology and collectives", "G0 verdict"],
+      "actual_cost_and_results": null
+    },
+    {
+      "id": "P01", "status": "PLANNED", "objective": "Portable tiny lifecycle, numerical parity and restart",
+      "dependencies": ["P00"], "conditional": false,
+      "ceiling_910C_hours": 64, "ceiling_910B_hours": 64,
+      "evidence_required": ["Independent CPU loss fixture", "Actual NPU forward/backward/update", "Save/terminate/resume comparison", "Separate FP32 and AMP verdicts"],
+      "actual_cost_and_results": null
+    },
+    {
+      "id": "P02", "status": "PLANNED", "objective": "100k-cell real-data and input-throughput canary",
+      "dependencies": ["P00"], "conditional": false,
+      "ceiling_910C_hours": 128, "ceiling_910B_hours": 128,
+      "evidence_required": ["Source and shard hashes", "Rights/units and donor/guide alias audit", "Sealed-study exclusions", "Measured input/memory/throughput"],
+      "actual_cost_and_results": null
+    },
+    {
+      "id": "P03", "status": "PLANNED", "objective": "Matched baselines and frozen independent evaluation implementation",
+      "dependencies": ["P01", "P02"], "conditional": false,
+      "ceiling_910C_hours": 128, "ceiling_910B_hours": 256,
+      "evidence_required": ["Task-specific units and split manifests", "CPU/small-model baselines", "Independent scorer and tamper rejection", "1/2/4/8-device qualification as needed"],
+      "actual_cost_and_results": null
+    },
+    {
+      "id": "P04", "status": "PLANNED", "objective": "RNA-A 100k-to-1M-cell scale ladder and three-seed development evaluation",
+      "dependencies": ["P03"], "conditional": false,
+      "ceiling_910C_hours": 512, "ceiling_910B_hours": 128,
+      "evidence_required": ["Exact implemented parameter count", "Frozen exposure and loss contract", "All declared seed outcomes", "Matched validation baseline and cost comparison"],
+      "actual_cost_and_results": null
+    },
+    {
+      "id": "P05", "status": "PLANNED", "objective": "Conditional RNA-B matched-exposure scaling ablation",
+      "dependencies": ["P04"], "conditional": true,
+      "admission": "RNA-A improves a prespecified development-validation task; at least 1M eligible unique cells and audited diversity; forecast fits remaining cap; final test remains sealed",
+      "ceiling_910C_hours": 512, "ceiling_910B_hours": 0,
+      "evidence_required": ["Scaling hypothesis and matched exposure", "Exact model size and measured peak HBM", "Numerical and lifecycle gates", "Three-seed outcomes or explicit incomplete verdict"],
+      "actual_cost_and_results": null
+    },
+    {
+      "id": "P06", "status": "PLANNED", "objective": "Single-target and combination-response adapters",
+      "dependencies": ["P03", "P04"], "conditional": false,
+      "ceiling_910C_hours": 448, "ceiling_910B_hours": 256,
+      "evidence_required": ["Context-matched control contract", "Target/guide/pair/source deduplication", "No fictional cell-level pre/post pairing", "Effect-prediction baselines and support map"],
+      "actual_cost_and_results": null
+    },
+    {
+      "id": "P07", "status": "PLANNED", "objective": "Frozen external/context evaluation, calibration and confounding audit",
+      "dependencies": ["P04", "P06"], "conditional": false,
+      "optional_branch_resolution_before_test_access": "P05 completed and candidate fixed, or P05 explicitly deferred before unsealing; no late candidate selection from final-test outcomes",
+      "ceiling_910C_hours": 128, "ceiling_910B_hours": 128,
+      "evidence_required": ["Frozen selected candidates before final-test access", "Donor/target-cluster uncertainty", "All cohorts/regimes and failure cells", "Abstention and calibration"],
+      "actual_cost_and_results": null
+    },
+    {
+      "id": "P08", "status": "PLANNED", "objective": "Independent computational release and hypothesis evidence cards",
+      "dependencies": ["P07"], "conditional": false,
+      "optional_branch_resolution": "P05 is either completed and disclosed or explicitly deferred; a large-model run is not required to release an honest smaller-model result",
+      "ceiling_910C_hours": 96, "ceiling_910B_hours": 32,
+      "evidence_required": ["Authenticated source/data/checkpoint/predictions", "All attempted-run and cost ledger", "Independent result/model card", "Unestablished biological claims and next falsification experiment"],
+      "actual_cost_and_results": null
+    }
+  ],
+  "scientific_promotion": {
+    "external_age_minimum_independent_donors": 30,
+    "external_age_minimum_independent_cohorts": 2,
+    "currently_named_external_candidate_people_before_audit_upper_bound": 12,
+    "heldout_target_minimum_units_for_response_promotion": 30,
+    "minimum_relative_primary_error_reduction": 0.10,
+    "paired_improvement_ci95_lower_bound_must_exceed_zero": true,
+    "bootstrap_draws": 2000,
+    "missing_or_underpowered_evidence": "UNKNOWN or INSUFFICIENT_EVIDENCE; never PASS",
+    "biological_rejuvenation_or_validated_mechanism_established": false
+  }
+}

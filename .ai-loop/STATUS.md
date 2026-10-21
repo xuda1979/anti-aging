@@ -1,6 +1,7 @@
-STATE: Bounded public-data study EXP-0002 completed; independent computational verification PASS.
-DELTA: 111 healthy adult cell lines; 88 training / 23 holdout. Ridge MAE 12.79 years; median baseline 25.07; compact neural model 14.24.
-EVIDENCE: verification/report.json; results/pilot_20261021_v2/run_manifest.json.
-COST: $0 direct cloud spending; 2.19-second bounded CPU fit excludes development, setup, download and verification.
-RISK: One cohort, weak younger-adult discrimination, no external or biological validation.
-NEXT: Independent cohort selection and frozen harmonization protocol.
+STATE: Ascend R&D planning task T-0005 completed; documentation review PASS; target NPU runtime UNKNOWN.
+DELTA: Detailed 12-week plan, first 30-day work order, proposed data/model/evaluation contracts and aggregate 2,048 C / 1,024 B device-hour ceilings for user-reported 8+8 NPUs.
+EVIDENCE: docs/ASCEND_RND_PLAN.md; docs/ASCEND_EXPERIMENT_MATRIX.json; .ai-loop/reports/ascend_plan_review.json.
+COST: No NPU execution or paid cloud computation in this planning task.
+RISK: Device topology, HBM, supported host stack, dataset eligibility and independent biological evidence remain unresolved.
+NEXT: Assign inventory/data/implementation/evaluation owners; collect both hardware/software inventories and qualify a one-device lifecycle before scaling.
+HISTORICAL: Adult study EXP-0002 and recovered CellClockAI evidence remain unchanged and separately verified; no rejuvenation demonstrated.

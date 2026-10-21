@@ -1,12 +1,12 @@
 {
   "active_task_ids": [],
   "current_experiment_id": null,
-  "last_event_id": "EV-0003",
-  "mode": "standard",
-  "objective": "Deliver a reproducible bounded public-data adult fibroblast chronological-age study and independently verified scientific publication package.",
+  "last_event_id": "EV-0004",
+  "mode": "lean",
+  "objective": "Preserve verified public-data studies and deliver an actionable, source-grounded Ascend 910B/910C R&D plan for the reported 8+8 NPUs.",
   "phase": "completed",
   "project_id": "P-20261021-eda941",
-  "risk_tier": "R3",
+  "risk_tier": "R1",
   "schema_version": 1,
-  "updated_at": "2026-10-21T04:36:03Z"
+  "updated_at": "2026-10-21T07:47:21Z"
 }

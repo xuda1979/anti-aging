@@ -51,6 +51,7 @@ Source downloads fail closed on checksum mismatch. If GEO changes a file, preser
 
 ## Project materials
 
+- [Detailed Ascend R&D plan for 8 × 910C + 8 × 910B](docs/ASCEND_RND_PLAN.md), [first-30-days work order](docs/ASCEND_FIRST_30_DAYS.md), [planned experiment/resource matrix](docs/ASCEND_EXPERIMENT_MATRIX.json) and [primary sources](docs/ASCEND_SOURCES.md). NPU implementation and target-runtime qualification are future work; no NPU training result is claimed.
 - [New public-data pilot addendum](docs/business/Cellular_Rejuvenation_Public_Data_Pilot_2026-10-21.pdf)
 - [Technical white paper](docs/business/Cellular_Rejuvenation_White_Paper.pdf) and [editable source](docs/business/Cellular_Rejuvenation_White_Paper.docx)
 - [Investor brief](docs/business/Cellular_Rejuvenation_Investor_Brief.pdf), [pitch deck](docs/business/Cellular_Rejuvenation_Nonconfidential_Pitch_Deck.pdf) and [editable slides](docs/business/Cellular_Rejuvenation_Nonconfidential_Pitch_Deck.pptx)

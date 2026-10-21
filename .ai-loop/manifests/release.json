@@ -1,8 +1,8 @@
 {
   "algorithm": "sha256",
-  "created_at": "2026-10-21T04:37:09Z",
-  "manifest_sha256": "2c85b432d6a744dfd081986a5c8ea95b77dd07ee6de2b630eff986d137cdc22f",
-  "member_count": 164,
+  "created_at": "2026-10-21T07:48:56Z",
+  "manifest_sha256": "9f29d82983c031f5c4e529a46701a32e32c0442f48b4cc74fca4191ffe35c75a",
+  "member_count": 168,
   "members": [
     {
       "mode": "0644",
@@ -25,8 +25,8 @@
     {
       "mode": "0644",
       "path": "README.md",
-      "sha256": "b01713a5180bd133380f63c894b63cb871d828546086a25daa34efd541411d38",
-      "size_bytes": 7210
+      "sha256": "f373e1189901604ed814420673d6666b61d93ba2e08df591893f10fa84de2529",
+      "size_bytes": 7573
     },
     {
       "mode": "0644",
@@ -54,9 +54,33 @@
     },
     {
       "mode": "0644",
+      "path": "docs/ASCEND_EXPERIMENT_MATRIX.json",
+      "sha256": "0a22a364ab03ea0f067ec10883f12054c28d769b64b335deb9da3ee8f5971fe9",
+      "size_bytes": 7676
+    },
+    {
+      "mode": "0644",
+      "path": "docs/ASCEND_FIRST_30_DAYS.md",
+      "sha256": "be0dc693d8c4f52c1b2c0c7af28f2c3b7bc0537b4d33d810e4e8f06b947c6450",
+      "size_bytes": 10263
+    },
+    {
+      "mode": "0644",
+      "path": "docs/ASCEND_RND_PLAN.md",
+      "sha256": "b5c1cd1f1a5ffbcd45e749162ad46f6dd4ab17eb419a3952b00160fe471e32a7",
+      "size_bytes": 56737
+    },
+    {
+      "mode": "0644",
+      "path": "docs/ASCEND_SOURCES.md",
+      "sha256": "b2cdcc28a9faa96ab9eb1db24dc95d89a931591efbcaf153483032226fdf7c58",
+      "size_bytes": 7356
+    },
+    {
+      "mode": "0644",
       "path": "docs/ROADMAP.md",
-      "sha256": "e081c5d5590bcef4d354e754ea9fcb56b38d0acf8e8660b021cb4817e8cbf9ef",
-      "size_bytes": 4726
+      "sha256": "1461b4dabf8d1672212fd4134845b0641b227d748af7c85fbbe4e59c8bc17b32",
+      "size_bytes": 5279
     },
     {
       "mode": "0644",
@@ -991,5 +1015,5 @@
   ],
   "root_hint": "anti-aging",
   "schema_version": 1,
-  "source_revision": "2c5f0b633ed2a3916e198efe28b56e50f3989c1d"
+  "source_revision": "b35d4348ba5c5fb2c2fe37c9f89f1718f7216c46"
 }

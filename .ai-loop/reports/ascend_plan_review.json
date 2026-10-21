@@ -1,0 +1,456 @@
+{
+  "reviewed_at_utc": "2026-10-21T07:48:55.732352+00:00",
+  "scope": "R1 planning documents, resource arithmetic, references and illustrative syntax; no runtime implementation or NPU training",
+  "verdict": "PASS",
+  "target_npu_runtime": "UNKNOWN",
+  "npu_training_executed": false,
+  "checks": [
+    {
+      "check": "Relative link resolves: README.md -> results/pilot_20261021_v2/holdout_results.png",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> results/pilot_20261021_v2/REPORT.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> results/pilot_20261021_v2/MODEL_CARD.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> results/pilot_20261021_v2/metrics.json",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> verification/REPORT.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> results/RUN_STATUS.json",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/ASCEND_RND_PLAN.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/ASCEND_FIRST_30_DAYS.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/ASCEND_EXPERIMENT_MATRIX.json",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/ASCEND_SOURCES.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/business/Cellular_Rejuvenation_Public_Data_Pilot_2026-10-21.pdf",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/business/Cellular_Rejuvenation_White_Paper.pdf",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/business/Cellular_Rejuvenation_White_Paper.docx",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/business/Cellular_Rejuvenation_Investor_Brief.pdf",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/business/Cellular_Rejuvenation_Nonconfidential_Pitch_Deck.pdf",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/business/Cellular_Rejuvenation_Nonconfidential_Pitch_Deck.pptx",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/business/Cellular_Rejuvenation_Diligence_Review.pdf",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/business/Cellular_Rejuvenation_Financial_Plan.xlsx",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/ROADMAP.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> data/processed/DATA_CARD.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> NOTICE.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> docs/archive/README.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> legacy/CellClockAI/",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> legacy/REPRODUCTION.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: README.md -> legacy/verification/REPORT.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Shell syntax: git clone https://github.com/xuda1979/anti-aging.git",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Shell syntax: python scripts/train.py --run-id local_replication_001",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ROADMAP.md -> ASCEND_RND_PLAN.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ROADMAP.md -> ASCEND_FIRST_30_DAYS.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ROADMAP.md -> ASCEND_EXPERIMENT_MATRIX.json",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ROADMAP.md -> ../legacy/REPRODUCTION.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ASCEND_FIRST_30_DAYS.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ASCEND_EXPERIMENT_MATRIX.json",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ASCEND_SOURCES.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ROADMAP.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ../results/pilot_20261021_v2/REPORT.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ../verification/REPORT.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ../legacy/REPRODUCTION.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ASCEND_SOURCES.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ASCEND_EXPERIMENT_MATRIX.json",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_RND_PLAN.md -> ASCEND_FIRST_30_DAYS.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_FIRST_30_DAYS.md -> ASCEND_RND_PLAN.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Relative link resolves: docs/ASCEND_FIRST_30_DAYS.md -> ASCEND_EXPERIMENT_MATRIX.json",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Shell syntax: npu-smi info",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Shell syntax: python -m pip show torch torch_npu",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Python inventory syntax",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Shell syntax: python scripts/verify_study.py --run pilot_20261021_v2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Unique9experimentIDs",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "All experiments planned with null actuals",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Nonexecutable plan",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "8+8reported, logical counts unknown",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "910C aggregate",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "910B aggregate",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Combined3072hours",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Aggregate all seeds/retries",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P00",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P00",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P01",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P01",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P02",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P02",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P03",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P03",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P04",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P04",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P05",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P05",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P06",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P06",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P07",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P07",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dependency exists P08",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Acyclic P08",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Optional scaling branch resolves before sealed test",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Capacity1344/10752",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Dense80GB",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Optimizer0.48/1.60GB",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Batch256",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Head dimensions",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Existing scientific runtime and artifacts unchanged",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Pinned source candidate authenticated",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "Used bibliography IDs registered",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "source_authentication": {
+    "url": "https://raw.githubusercontent.com/Ascend/pytorch/e8c7f12c5b371dfd46e919d7d6ad190dd53d4b51/COMPATIBILITY.en.md",
+    "sha256": "9a59cddb03f1a6a5ae3fad0fa3c132c3c41dcb782f89ac476e711944e3f80e67",
+    "candidate_tuple_found": true
+  },
+  "review_process_note": "Initial review reached report write after all checks but failed because the report directory was absent in the new worktree; directory creation was added and this complete review succeeded.",
+  "limitations": [
+    "No target NPU access or execution",
+    "Metadata review is not complete dataset/rights/independence qualification",
+    "Existing CPU runtime tests not rerun for prose-only changes"
+  ],
+  "input_files": [
+    {
+      "path": "README.md",
+      "sha256": "f373e1189901604ed814420673d6666b61d93ba2e08df591893f10fa84de2529"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "sha256": "1461b4dabf8d1672212fd4134845b0641b227d748af7c85fbbe4e59c8bc17b32"
+    },
+    {
+      "path": "docs/ASCEND_RND_PLAN.md",
+      "sha256": "b5c1cd1f1a5ffbcd45e749162ad46f6dd4ab17eb419a3952b00160fe471e32a7"
+    },
+    {
+      "path": "docs/ASCEND_FIRST_30_DAYS.md",
+      "sha256": "be0dc693d8c4f52c1b2c0c7af28f2c3b7bc0537b4d33d810e4e8f06b947c6450"
+    },
+    {
+      "path": "docs/ASCEND_SOURCES.md",
+      "sha256": "b2cdcc28a9faa96ab9eb1db24dc95d89a931591efbcaf153483032226fdf7c58"
+    },
+    {
+      "path": "docs/ASCEND_EXPERIMENT_MATRIX.json",
+      "sha256": "0a22a364ab03ea0f067ec10883f12054c28d769b64b335deb9da3ee8f5971fe9"
+    }
+  ]
+}
