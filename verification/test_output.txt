@@ -1,0 +1,12 @@
+test_corrupt_prediction_csv_rejected (test_independent_verifier.IndependentContracts.test_corrupt_prediction_csv_rejected) ... ok
+test_known_numeric_fixture (test_independent_verifier.IndependentContracts.test_known_numeric_fixture) ... ok
+test_nonfinite_measurement_rejected (test_independent_verifier.IndependentContracts.test_nonfinite_measurement_rejected) ... ok
+test_feature_selection_fit_is_train_only (test_pipeline.PipelineContracts.test_feature_selection_fit_is_train_only) ... ok
+test_geo_age_parser (test_pipeline.PipelineContracts.test_geo_age_parser) ... ok
+test_invalid_measurements_fail_closed (test_pipeline.PipelineContracts.test_invalid_measurements_fail_closed) ... ok
+test_real_schema_split_and_checkpoint (test_pipeline.PipelineContracts.test_real_schema_split_and_checkpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.676s
+
+OK

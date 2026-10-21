@@ -1,0 +1,91 @@
+{
+  "protocol_id": "GSE113957-ADULT-v1-20261021",
+  "frozen_at_utc": "2026-10-21T03:36:59.219555+00:00",
+  "objective": "Reproducible small-scale prediction of chronological age from public cultured human fibroblast expression; not a rejuvenation or mechanism experiment.",
+  "sources": [
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113957",
+    "https://doi.org/10.1186/s13059-018-1599-6"
+  ],
+  "eligibility": "GEO characteristics disease=Normal and age>=18; one sample per public cell-line ID; all HGPS and pediatric samples excluded from primary analysis.",
+  "label_source": "Authoritative GEO series-matrix characteristics, not age in expression-column title. Preserve reported metadata, including age 96.",
+  "split": {
+    "algorithm": "sklearn GroupShuffleSplit on samples sorted by GSM accession",
+    "test_size": 0.2,
+    "group": "public cell id",
+    "seed": 20261021,
+    "inner_cv": "GroupKFold(n_splits=5, shuffle=True, random_state=20261021) on training only"
+  },
+  "features": {
+    "input": "Published RefSeq transcript-level FPKM table",
+    "selection": "Training fold only: retain maximum FPKM>=5, log1p then highest variance up to 1000 transcripts, stable feature-index tie break",
+    "scaling": "StandardScaler fitted only on training fold",
+    "metadata_predictors": false
+  },
+  "models": {
+    "median_baseline": "training median age",
+    "ridge": {
+      "alpha_grid": [
+        1,
+        10,
+        100,
+        1000
+      ],
+      "selection_metric": "mean inner-fold MAE",
+      "solver": "lsqr",
+      "tol": 1e-06
+    },
+    "compact_mlp": {
+      "pca_components": 16,
+      "hidden_layer_sizes": [
+        8
+      ],
+      "activation": "tanh",
+      "solver": "lbfgs",
+      "alpha": 10.0,
+      "max_iter": 2000,
+      "target": "training StandardScaler via TransformedTargetRegressor",
+      "seed": 20261021,
+      "hyperparameter_search": false
+    }
+  },
+  "evaluation": {
+    "primary": "Holdout MAE in years",
+    "secondary": [
+      "RMSE",
+      "R2",
+      "median absolute error",
+      "Pearson correlation"
+    ],
+    "bootstrap": "2000 paired sample-resampling replicates, percentile 95% CI, seed 20261022",
+    "subgroups": [
+      "sex",
+      "sequencing platform",
+      "age<60 vs age>=60"
+    ],
+    "negative_control": "30 training-label permutations of final selected Ridge alpha, independent seed20261023; fixed holdout unchanged; diagnostic, not a confirmatory permutation p-value"
+  },
+  "hypothesis": "Gene expression predicts chronological age in held-out adult cell lines better than the training-median baseline.",
+  "acceptance": "For each model separately: holdout MAE at least 20% lower than median baseline and 95% paired-bootstrap lower bound of baseline MAE minus model MAE >0; otherwise FAIL. MLP superiority over Ridge requires separately positive 95% paired-bootstrap lower bound, and is not assumed.",
+  "budget": {
+    "cpu_wall_minutes": 15,
+    "gpu_minutes": 0,
+    "cloud_cost_usd": 0,
+    "threads": 1
+  },
+  "stop_conditions": [
+    "Missing/unmapped samples or duplicate public cell IDs",
+    "Train/test public cell-ID overlap",
+    "Nonfinite expression, predictions or metrics",
+    "Any use of holdout for model selection",
+    "Wall budget exceeded"
+  ],
+  "limitations": [
+    "Single small public cohort",
+    "Public cell IDs are only a donor proxy; donor provenance and kinship are not independently established",
+    "Age, sex, cell culture, passage, ancestry and sequencing batch can confound",
+    "No external validation",
+    "Chronological age is not biological age or cell function",
+    "No intervention, mechanism, reversal, lifespan or clinical efficacy claim"
+  ],
+  "approval": "User authorized public-data local small-scale training and publishing code and honest results to xuda1979/anti-aging. No clinical or paid computing actions."
+}

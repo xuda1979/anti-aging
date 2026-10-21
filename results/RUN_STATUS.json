@@ -1,0 +1,16 @@
+{
+  "as_of_utc": "2026-10-21T03:44:05.902185+00:00",
+  "runs": {
+    "pilot_20261021_v1": {
+      "publication_recommendation": "VOID",
+      "reason": "Current scripts/predict.py differs from recorded source hash because the initial default checkpoint path was wrong. Numeric outputs retained unchanged as historical evidence; do not cite v1 as reproducible from current tree.",
+      "superseded_by": "pilot_20261021_v2"
+    },
+    "pilot_20261021_v2": {
+      "publication_recommendation": "PASS",
+      "reason": "Independent verifier passed103checks and7combinedcontracttests; source/data/result/modelhashes match. Numeric results reproduce, both checkpoints reproduce saved predictions.",
+      "independent_evidence": "verification/report.json",
+      "limitations": "Single public cohort/small frozen holdout; no externalvalidation or biologicalrejuvenation evidence."
+    }
+  }
+}

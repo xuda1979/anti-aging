@@ -1,0 +1,252 @@
+{
+  "protocol_id": "GSE113957-ADULT-v1-20261021",
+  "run_id": "pilot_20261021_v1",
+  "frozen_protocol_sha256": "a1adcf752795eb6ce261a1473efff2d49d9c10c52664e5b4ed9935b671859060",
+  "sample_counts": {
+    "total": 143,
+    "normal": 133,
+    "hgps_excluded": 10,
+    "pediatric_normal_excluded": 22,
+    "healthy_adult": 111,
+    "train": 88,
+    "holdout": 23
+  },
+  "models": {
+    "median_baseline": {
+      "n": 23,
+      "mae_years": 25.065217391304348,
+      "rmse_years": 27.492093725129493,
+      "median_absolute_error_years": 25.5,
+      "r2": -0.18971122087660297,
+      "pearson_r": null,
+      "bootstrap_mae_ci95": [
+        20.58695652173913,
+        29.58695652173913
+      ]
+    },
+    "ridge": {
+      "n": 23,
+      "mae_years": 12.790175245716295,
+      "rmse_years": 15.410007032924087,
+      "median_absolute_error_years": 10.430183217792589,
+      "r2": 0.6262066249195906,
+      "pearson_r": 0.8737786766064681,
+      "bootstrap_mae_ci95": [
+        9.38944450689687,
+        16.14576665470555
+      ],
+      "paired_improvement_vs_baseline_ci95": [
+        7.92139655983599,
+        17.002689644002473
+      ],
+      "relative_mae_reduction_vs_baseline": 0.4897241445768,
+      "criterion": "PASS"
+    },
+    "compact_mlp": {
+      "n": 23,
+      "mae_years": 14.241435372539943,
+      "rmse_years": 18.49756021601734,
+      "median_absolute_error_years": 11.10621353941923,
+      "r2": 0.46141429090069286,
+      "pearson_r": 0.7938384605357381,
+      "bootstrap_mae_ci95": [
+        9.527056988816685,
+        19.169188407794874
+      ],
+      "paired_improvement_vs_baseline_ci95": [
+        6.431198224570569,
+        15.198869955747616
+      ],
+      "relative_mae_reduction_vs_baseline": 0.43182478132104307,
+      "criterion": "PASS"
+    }
+  },
+  "mlp_vs_ridge": {
+    "paired_mae_improvement_years": -1.451260126823649,
+    "paired_improvement_ci95": [
+      -5.0545018999679225,
+      1.976120972340009
+    ],
+    "superiority_criterion": "FAIL"
+  },
+  "subgroups": {
+    "sex=female": {
+      "median_baseline": {
+        "n": 7,
+        "mae_years": 28.071428571428573,
+        "rmse_years": 30.16561429366698,
+        "median_absolute_error_years": 29.5,
+        "r2": -0.15567492613135658,
+        "pearson_r": null
+      },
+      "ridge": {
+        "n": 7,
+        "mae_years": 14.71134610849802,
+        "rmse_years": 17.4975509537954,
+        "median_absolute_error_years": 10.815579261704293,
+        "r2": 0.6111645280272497,
+        "pearson_r": 0.829264619257032
+      },
+      "compact_mlp": {
+        "n": 7,
+        "mae_years": 16.80510457922528,
+        "rmse_years": 22.06476210736592,
+        "median_absolute_error_years": 18.401413944073752,
+        "r2": 0.38168491483391487,
+        "pearson_r": 0.6725382122036054
+      }
+    },
+    "sex=male": {
+      "median_baseline": {
+        "n": 16,
+        "mae_years": 23.75,
+        "rmse_years": 26.236901493888336,
+        "median_absolute_error_years": 25.0,
+        "r2": -0.2103379830905432,
+        "pearson_r": null
+      },
+      "ridge": {
+        "n": 16,
+        "mae_years": 11.949662993249289,
+        "rmse_years": 14.401868931876171,
+        "median_absolute_error_years": 10.358580547649858,
+        "r2": 0.6353138403758222,
+        "pearson_r": 0.9059998991572554
+      },
+      "compact_mlp": {
+        "n": 16,
+        "mae_years": 13.119830094615109,
+        "rmse_years": 16.698985359814447,
+        "median_absolute_error_years": 9.09323891910294,
+        "r2": 0.5097001718136245,
+        "pearson_r": 0.8655454875236672
+      }
+    },
+    "platform=GPL16791": {
+      "median_baseline": {
+        "n": 1,
+        "mae_years": 20.5,
+        "rmse_years": 20.5,
+        "median_absolute_error_years": 20.5,
+        "r2": null,
+        "pearson_r": null
+      },
+      "ridge": {
+        "n": 1,
+        "mae_years": 10.815579261704293,
+        "rmse_years": 10.815579261704293,
+        "median_absolute_error_years": 10.815579261704293,
+        "r2": null,
+        "pearson_r": null
+      },
+      "compact_mlp": {
+        "n": 1,
+        "mae_years": 5.9774603433059355,
+        "rmse_years": 5.9774603433059355,
+        "median_absolute_error_years": 5.9774603433059355,
+        "r2": null,
+        "pearson_r": null
+      }
+    },
+    "platform=GPL18573": {
+      "median_baseline": {
+        "n": 22,
+        "mae_years": 25.272727272727273,
+        "rmse_years": 27.768114480788604,
+        "median_absolute_error_years": 26.0,
+        "r2": -0.1685302138878364,
+        "pearson_r": null
+      },
+      "ridge": {
+        "n": 22,
+        "mae_years": 12.87992960862593,
+        "rmse_years": 15.586699648612854,
+        "median_absolute_error_years": 10.358580547649858,
+        "r2": 0.6318239811347329,
+        "pearson_r": 0.872959173645082
+      },
+      "compact_mlp": {
+        "n": 22,
+        "mae_years": 14.617070601141489,
+        "rmse_years": 18.870303568141033,
+        "median_absolute_error_years": 13.137778655050447,
+        "r2": 0.4603590013281105,
+        "pearson_r": 0.8084186835946604
+      }
+    },
+    "age_band=18-59": {
+      "median_baseline": {
+        "n": 14,
+        "mae_years": 29.428571428571427,
+        "rmse_years": 31.059275127223614,
+        "median_absolute_error_years": 30.0,
+        "r2": -8.780013448507733,
+        "pearson_r": null
+      },
+      "ridge": {
+        "n": 14,
+        "mae_years": 15.844958141496381,
+        "rmse_years": 18.339954737004838,
+        "median_absolute_error_years": 14.99120668852651,
+        "r2": -2.4099918373793874,
+        "pearson_r": 0.46161508533325674
+      },
+      "compact_mlp": {
+        "n": 14,
+        "mae_years": 19.078038299019962,
+        "rmse_years": 22.367702754519737,
+        "median_absolute_error_years": 19.454688337079993,
+        "r2": -4.072237562553756,
+        "pearson_r": 0.03754282798274903
+      }
+    },
+    "age_band=60+": {
+      "median_baseline": {
+        "n": 9,
+        "mae_years": 18.27777777777778,
+        "rmse_years": 20.758532382292028,
+        "median_absolute_error_years": 23.5,
+        "r2": -2.688107565511412,
+        "pearson_r": null
+      },
+      "ridge": {
+        "n": 9,
+        "mae_years": 8.038290741169492,
+        "rmse_years": 9.145831647892317,
+        "median_absolute_error_years": 8.623736311042677,
+        "r2": 0.2840928614688626,
+        "pearson_r": 0.8128902028080534
+      },
+      "compact_mlp": {
+        "n": 9,
+        "mae_years": 6.717830820237693,
+        "rmse_years": 9.8051919893698,
+        "median_absolute_error_years": 3.962451190881403,
+        "r2": 0.17714655686596192,
+        "pearson_r": 0.6449471731132844
+      }
+    }
+  },
+  "interpretation": "Chronological-age association on one public cohort only; no biological rejuvenation or causal mechanism demonstrated.",
+  "training_label_shuffle_diagnostic": {
+    "permutations": 30,
+    "alpha": 100.0,
+    "mae_mean": 24.084819309700595,
+    "mae_min": 18.712640017608724,
+    "mae_max": 30.712714118062006,
+    "note": "Diagnostic only: fixed train-selected alpha; not a confirmatory permutation p-value."
+  },
+  "ridge_selected_alpha": 100.0,
+  "mlp_details": {
+    "hidden_layer_sizes": [
+      8
+    ],
+    "pca_components": 16,
+    "network_trainable_parameters": 145,
+    "iterations": 429,
+    "training_scaled_target_loss": 0.13826199410157833,
+    "convergence_warnings": [],
+    "checkpoint_reloaded_prediction_exact": true
+  },
+  "ridge_checkpoint_reloaded_prediction_exact": true
+}

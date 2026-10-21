@@ -1,0 +1,26 @@
+{
+  "objective": "Publish a reproducible zero-cost CPU public-data adult fibroblast chronological-age pilot with honest uncertainty, scientific project materials, and verified stakeholder outreach linking the repository.",
+  "baseline": "training-set median age, plus regularized linear Ridge as compact-neural comparator",
+  "hypothesis": "Adult fibroblast expression predicts held-out chronological age more accurately than a training-median baseline",
+  "primary_criterion": "At least 20% lower holdout MAE than median baseline and paired-bootstrap improvement lower bound >0; negative result published as such",
+  "evaluation": "One frozen donor/cell-ID grouped 80/20 split, seed20261021, healthy adults age>=18, train-only transformations and innerCV; no external validation claim",
+  "non_goals": [
+    "mechanistic discovery or causality",
+    "biological rejuvenation or clinical efficacy",
+    "novel or state-of-art clock claim",
+    "paid compute or new funding commitments"
+  ],
+  "stop_conditions": [
+    "split leakage or ambiguous alignment",
+    "nonfinite inputs/predictions",
+    "15 CPU-minute experiment budget exceeded",
+    "unknown critical provenance"
+  ],
+  "done": [
+    "public code/data retrieval protocol/results with caveats",
+    "independent numeric and split verification",
+    "only appropriate unanswered human project replies sent",
+    "new qualified outreach with repo URL",
+    "persistent campaign records updated"
+  ]
+}

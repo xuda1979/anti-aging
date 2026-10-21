@@ -1,0 +1,431 @@
+{
+  "algorithm": "sha256",
+  "created_at": "2026-10-21T03:49:40Z",
+  "manifest_sha256": "6865fcc967f89f9878cc46e01c85cd9680e3640be4cfab136addc572798a41b4",
+  "member_count": 70,
+  "members": [
+    {
+      "mode": "0644",
+      "path": ".github/workflows/verify.yml",
+      "sha256": "a7e2c0ac746a8a9571f9665f43031a8ea05c8a09551e43c6dc4854f036a50261",
+      "size_bytes": 560
+    },
+    {
+      "mode": "0644",
+      "path": ".gitignore",
+      "sha256": "6bc4f81142c9584115abe718e36fe115fc1a63e5646e1459a0d8679b634704a4",
+      "size_bytes": 119
+    },
+    {
+      "mode": "0644",
+      "path": "NOTICE.md",
+      "sha256": "7a375d739f18ef8b46fd7795833645a332cd1ea5b61dcff1ae549c05f9e7c665",
+      "size_bytes": 1655
+    },
+    {
+      "mode": "0644",
+      "path": "README.md",
+      "sha256": "ca8b2a09ab892af227b02d276e6536cba286e030b6c34fecf7d04520f8f1e96e",
+      "size_bytes": 6410
+    },
+    {
+      "mode": "0644",
+      "path": "configs/protocol.json",
+      "sha256": "a1adcf752795eb6ce261a1473efff2d49d9c10c52664e5b4ed9935b671859060",
+      "size_bytes": 3866
+    },
+    {
+      "mode": "0644",
+      "path": "configs/requirements.lock.txt",
+      "sha256": "a61a35d92575fab82342dad60140f4f43206240efaad02f22b33c13182acf28a",
+      "size_bytes": 115
+    },
+    {
+      "mode": "0644",
+      "path": "data/processed/DATA_CARD.md",
+      "sha256": "09213f7b10258cdf28352cfb7c85d17e1e4ac62b6c7d9eaa3ccca8d74b4919e8",
+      "size_bytes": 1762
+    },
+    {
+      "mode": "0644",
+      "path": "data/processed/sample_manifest.csv",
+      "sha256": "a108d13901186ec6f446bb4458d62f36dc4d1691e4c3b7d4764ed5cdceb7dfd2",
+      "size_bytes": 13905
+    },
+    {
+      "mode": "0644",
+      "path": "docs/ROADMAP.md",
+      "sha256": "e081c5d5590bcef4d354e754ea9fcb56b38d0acf8e8660b021cb4817e8cbf9ef",
+      "size_bytes": 4726
+    },
+    {
+      "mode": "0644",
+      "path": "docs/archive/Cellular_Age_Resetting_AI_2026-10-13.pdf",
+      "sha256": "68f90d89c141e05dd668cd4701b41891f830f3344884595e6d9a9b4fc0133bbf",
+      "size_bytes": 294802
+    },
+    {
+      "mode": "0644",
+      "path": "docs/archive/README.md",
+      "sha256": "40f1dddbcdc68c5d6b03743d13a0d63690bcf108b695617b3cd8086db50ee0eb",
+      "size_bytes": 1164
+    },
+    {
+      "mode": "0644",
+      "path": "docs/build_pilot_addendum.py",
+      "sha256": "978dc8cc8ab4b1ef56b78349c7133a2fab4bf2212ea551122724acb10c9d1df4",
+      "size_bytes": 8790
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_Diligence_Review.docx",
+      "sha256": "6c193987fed8564731639600c745d550cb20c5601864667d2bd06add13b96479",
+      "size_bytes": 40359
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_Diligence_Review.pdf",
+      "sha256": "681b6f78bcb98070c6e85295e8c2224847db2d6914f5c3c372f1f2510aca4ce8",
+      "size_bytes": 69859
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_Financial_Plan.xlsx",
+      "sha256": "44afd4169195bbc1df7bbc93500443d32186132a12b9ad9dfabccc143b88ac12",
+      "size_bytes": 6711
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_Investor_Brief.docx",
+      "sha256": "b165348b78cf6c220c31e5e5310f881465d2ad994bad72974f7a9945ffea5a30",
+      "size_bytes": 40551
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_Investor_Brief.pdf",
+      "sha256": "7bae7e163da266dd9777315c4e4bd297f7c8e8adcd65d8d25279f1e68e5c8823",
+      "size_bytes": 90200
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_Nonconfidential_Pitch_Deck.pdf",
+      "sha256": "5a12a886b1f6d887f56b6d7f78125d72bbbdd122c582bd8d12a5566d3eb1f12f",
+      "size_bytes": 176519
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_Nonconfidential_Pitch_Deck.pptx",
+      "sha256": "d3a1553e4009f8d189ee54a8a5fa7d03271e8181b489e543fe2e3027d25b89bd",
+      "size_bytes": 57470
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_Public_Data_Pilot_2026-10-21.pdf",
+      "sha256": "f92e4bdaf7d86b248f807c8c921110f874a48b85910029b17c1569c5a66b2fba",
+      "size_bytes": 168049
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_White_Paper.docx",
+      "sha256": "e1847948ad4135086db4189e2add5abb85393ad0ec88a73997302736140dd662",
+      "size_bytes": 156225
+    },
+    {
+      "mode": "0644",
+      "path": "docs/business/Cellular_Rejuvenation_White_Paper.pdf",
+      "sha256": "c73d9f12988729340820d63773b143f5b1b17826ca1cdbe94c6dfc9e7213897e",
+      "size_bytes": 473568
+    },
+    {
+      "mode": "0644",
+      "path": "docs/requirements.txt",
+      "sha256": "054e7483ed0899a13425d3ff89d0ae162290c88989825c77d22174ceb36f33f1",
+      "size_bytes": 17
+    },
+    {
+      "mode": "0644",
+      "path": "models/pilot_20261021_v1/compact_mlp.joblib",
+      "sha256": "908c77bcd182630031900ebfe26afa77bbc1db23f79e2e577d7dbb2b1bdff4a2",
+      "size_bytes": 179643
+    },
+    {
+      "mode": "0644",
+      "path": "models/pilot_20261021_v1/ridge.joblib",
+      "sha256": "a0aa859cd9b1b86f8de4ec4beba7295c7dc3b62fa10d791020ec3b1591c0550c",
+      "size_bytes": 41313
+    },
+    {
+      "mode": "0644",
+      "path": "models/pilot_20261021_v2/compact_mlp.joblib",
+      "sha256": "908c77bcd182630031900ebfe26afa77bbc1db23f79e2e577d7dbb2b1bdff4a2",
+      "size_bytes": 179643
+    },
+    {
+      "mode": "0644",
+      "path": "models/pilot_20261021_v2/ridge.joblib",
+      "sha256": "a0aa859cd9b1b86f8de4ec4beba7295c7dc3b62fa10d791020ec3b1591c0550c",
+      "size_bytes": 41313
+    },
+    {
+      "mode": "0644",
+      "path": "pyproject.toml",
+      "sha256": "64673f31d79907cd95f21d595604e654c766237cad88486ee3b44314ae61dc42",
+      "size_bytes": 582
+    },
+    {
+      "mode": "0644",
+      "path": "requirements.txt",
+      "sha256": "a86f2834465a73ebb56de48a22e5b77cb8324369b5b8b0e5414b53b2e62f36fd",
+      "size_bytes": 34
+    },
+    {
+      "mode": "0644",
+      "path": "results/RUN_STATUS.json",
+      "sha256": "0177d51c7208939c36e72a9b0dccbfc0ba2940be8430ba6922b65660b1f89dd8",
+      "size_bytes": 889
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/holdout_results.pdf",
+      "sha256": "0124ca66b5a702ff588f964180bf734a41f9aed8a61627ac02f47df46c017c6d",
+      "size_bytes": 19301
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/holdout_results.png",
+      "sha256": "a77c2ee34ed07c193a575075ab4353480fdac4e56cf6aa90de0232eb1fddd264",
+      "size_bytes": 122111
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/inner_cv_manifest.json",
+      "sha256": "071f4c3c276a48e378f9fb3743e90a2e7c9902708cd0586392b958378f2498f4",
+      "size_bytes": 9193
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/metrics.json",
+      "sha256": "4e44e78a1c93627be143103f13c24576fc4264eda4e04d30472de9b7a852f5ce",
+      "size_bytes": 7455
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/negative_control.csv",
+      "sha256": "431a578ad068af71015869340679182a82cdb3fc9d6cb14288cb58904c710d53",
+      "size_bytes": 664
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/predictions.csv",
+      "sha256": "04a58611696c1ece0fb6cc10336ff9341aa62f750adf3c02feef5e5dd9f4db65",
+      "size_bytes": 2487
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/preflight_gates.json",
+      "sha256": "08d4b97f8ef5513977c89e08607d6e09b9e010541e2afbfd470b969071cb3241",
+      "size_bytes": 666
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/protocol_snapshot.json",
+      "sha256": "a1adcf752795eb6ce261a1473efff2d49d9c10c52664e5b4ed9935b671859060",
+      "size_bytes": 3866
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/ridge_feature_weights.csv",
+      "sha256": "4e230b5f768a489632225023f211fb987c7cc51375b3922d3dabba812a6a523f",
+      "size_bytes": 141558
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/ridge_inner_cv.csv",
+      "sha256": "51e7cad55363a01efac9df0aeab29cab1d7753c719fecfc1abb282d4569e629b",
+      "size_bytes": 1242
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/run_manifest.json",
+      "sha256": "07a93dc902609eb9bcf2fe9d874ee5b208656a42710b9242904ef49e8edda69b",
+      "size_bytes": 4181
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v1/split_manifest.csv",
+      "sha256": "a108d13901186ec6f446bb4458d62f36dc4d1691e4c3b7d4764ed5cdceb7dfd2",
+      "size_bytes": 13905
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/MODEL_CARD.md",
+      "sha256": "6f8058a8bb0189e842a13a3cc0debdd657be04fba541be677ad324508e3778c2",
+      "size_bytes": 3841
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/REPORT.md",
+      "sha256": "1378e64cbbd86f5d55e3ebc74e2dc5fab3e15f973daa7d4ea202f5d2d15a6b71",
+      "size_bytes": 8556
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/holdout_results.pdf",
+      "sha256": "af1457e20e2b52d71acac59fae9c0c877b78edb95e19ac071ec1ea455716f7dc",
+      "size_bytes": 19301
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/holdout_results.png",
+      "sha256": "a77c2ee34ed07c193a575075ab4353480fdac4e56cf6aa90de0232eb1fddd264",
+      "size_bytes": 122111
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/inner_cv_manifest.json",
+      "sha256": "071f4c3c276a48e378f9fb3743e90a2e7c9902708cd0586392b958378f2498f4",
+      "size_bytes": 9193
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/metrics.json",
+      "sha256": "27d7beaf44861880695694d37b799f99498f6fcb10b456d0e93226970289dc41",
+      "size_bytes": 7455
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/negative_control.csv",
+      "sha256": "431a578ad068af71015869340679182a82cdb3fc9d6cb14288cb58904c710d53",
+      "size_bytes": 664
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/predictions.csv",
+      "sha256": "04a58611696c1ece0fb6cc10336ff9341aa62f750adf3c02feef5e5dd9f4db65",
+      "size_bytes": 2487
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/preflight_gates.json",
+      "sha256": "08d4b97f8ef5513977c89e08607d6e09b9e010541e2afbfd470b969071cb3241",
+      "size_bytes": 666
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/protocol_snapshot.json",
+      "sha256": "a1adcf752795eb6ce261a1473efff2d49d9c10c52664e5b4ed9935b671859060",
+      "size_bytes": 3866
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/ridge_feature_weights.csv",
+      "sha256": "4e230b5f768a489632225023f211fb987c7cc51375b3922d3dabba812a6a523f",
+      "size_bytes": 141558
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/ridge_inner_cv.csv",
+      "sha256": "e19b6516ca763ef3277c6bfe847d0f33e6861cfbcca0ddade911f64c01805609",
+      "size_bytes": 1244
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/run_manifest.json",
+      "sha256": "d17df74d9b6d6dc1801546aa333de41fb6fe3e929303f4f29269b1cfcef993d8",
+      "size_bytes": 4182
+    },
+    {
+      "mode": "0644",
+      "path": "results/pilot_20261021_v2/split_manifest.csv",
+      "sha256": "a108d13901186ec6f446bb4458d62f36dc4d1691e4c3b7d4764ed5cdceb7dfd2",
+      "size_bytes": 13905
+    },
+    {
+      "mode": "0644",
+      "path": "scripts/download_data.py",
+      "sha256": "7914faf3b92f7b1e1e932f9729ef483c68dce88edb2095be3697fee7f320206e",
+      "size_bytes": 1721
+    },
+    {
+      "mode": "0644",
+      "path": "scripts/predict.py",
+      "sha256": "18510437e14e8256502381f7438a31ecc155cd95f21bd65ccc86fa13e3baee4a",
+      "size_bytes": 799
+    },
+    {
+      "mode": "0644",
+      "path": "scripts/train.py",
+      "sha256": "5a477f37f79379be8c06fd823d5a2a0d8da21a8f463c6dfbfc1acf7848a0cb5e",
+      "size_bytes": 14697
+    },
+    {
+      "mode": "0644",
+      "path": "scripts/verify_study.py",
+      "sha256": "22c882457401946ead2f6365e9fd52afe59c2f9f6480ca95306f0fda5c2f330b",
+      "size_bytes": 16657
+    },
+    {
+      "mode": "0644",
+      "path": "src/rejuvenation/__init__.py",
+      "sha256": "59c9dc6f282c6d7c8f01c1af47b31d7cae70df262cca53c6ce241be9a36699ac",
+      "size_bytes": 112
+    },
+    {
+      "mode": "0644",
+      "path": "src/rejuvenation/pipeline.py",
+      "sha256": "d9f51fc16fdb6058c2ef56c4b629b9858761fee634ce6dc7129b5c3aa8fc680d",
+      "size_bytes": 5942
+    },
+    {
+      "mode": "0644",
+      "path": "tests/test_independent_verifier.py",
+      "sha256": "3537dd1004823862a745129882d723b431c31dccdb1ee116219d172d7d667bf9",
+      "size_bytes": 2449
+    },
+    {
+      "mode": "0644",
+      "path": "tests/test_pipeline.py",
+      "sha256": "3b1d803d5238585adc465e7787b2f8263d8bcf2a16223d0f265cf3ba62cc08b7",
+      "size_bytes": 2372
+    },
+    {
+      "mode": "0644",
+      "path": "verification/REPORT.md",
+      "sha256": "cc0abe9e289ba8842a32e5b6b806b83ccaa9645266abe02904a8e8f6c96d61b1",
+      "size_bytes": 3791
+    },
+    {
+      "mode": "0644",
+      "path": "verification/command_output.json",
+      "sha256": "f9b435a6f945002123ca1220e76c3178e24cdbffc674d442b036772c43bb2ef0",
+      "size_bytes": 1438
+    },
+    {
+      "mode": "0644",
+      "path": "verification/independent_preflight.json",
+      "sha256": "8df61fd334d9fbc2d04be43688ce01ef8e5d6e58aeece1fb108e82cabf2351a2",
+      "size_bytes": 3099
+    },
+    {
+      "mode": "0644",
+      "path": "verification/report.json",
+      "sha256": "4c52c6749a4d05a7744cefbf83aac69b6c578dcbab555a7e77c6efe260afc858",
+      "size_bytes": 12741
+    },
+    {
+      "mode": "0644",
+      "path": "verification/test_output.txt",
+      "sha256": "6f46e843ac354ffc4737853ab40ca28f1166fea55453ac8f93058acf1131d6fb",
+      "size_bytes": 904
+    },
+    {
+      "mode": "0644",
+      "path": "verification/v1_source_drift_detected.json",
+      "sha256": "3a1a22386bc5f1953cdca6fe0f34f687ee83d5b3ccba4dc9a566e094d567ca59",
+      "size_bytes": 10678
+    }
+  ],
+  "root_hint": "anti-aging",
+  "schema_version": 1,
+  "source_revision": null
+}

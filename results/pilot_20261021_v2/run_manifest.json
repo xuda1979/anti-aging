@@ -1,0 +1,76 @@
+{
+  "run_id": "pilot_20261021_v2",
+  "started_utc": "2026-10-21T03:41:35.207839+00:00",
+  "completed_utc": "2026-10-21T03:41:37.398824+00:00",
+  "wall_seconds": 2.189125446000162,
+  "git_commit_at_run": null,
+  "source_status": "Uncommitted initial repository; exact executed source hashes below are authoritative.",
+  "command": "python scripts/train.py --run-id pilot_20261021_v2",
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "cpu_threads_limited": 1,
+    "gpu_used": false,
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "matplotlib": "3.10.8",
+      "threadpoolctl": "3.6.0"
+    }
+  },
+  "source_sha256": {
+    "src/rejuvenation/pipeline.py": "d9f51fc16fdb6058c2ef56c4b629b9858761fee634ce6dc7129b5c3aa8fc680d",
+    "src/rejuvenation/__init__.py": "59c9dc6f282c6d7c8f01c1af47b31d7cae70df262cca53c6ce241be9a36699ac",
+    "scripts/train.py": "5a477f37f79379be8c06fd823d5a2a0d8da21a8f463c6dfbfc1acf7848a0cb5e",
+    "scripts/download_data.py": "7914faf3b92f7b1e1e932f9729ef483c68dce88edb2095be3697fee7f320206e",
+    "scripts/predict.py": "18510437e14e8256502381f7438a31ecc155cd95f21bd65ccc86fa13e3baee4a",
+    "tests/test_pipeline.py": "3b1d803d5238585adc465e7787b2f8263d8bcf2a16223d0f265cf3ba62cc08b7",
+    "configs/protocol.json": "a1adcf752795eb6ce261a1473efff2d49d9c10c52664e5b4ed9935b671859060",
+    "configs/requirements.lock.txt": "a61a35d92575fab82342dad60140f4f43206240efaad02f22b33c13182acf28a"
+  },
+  "data_sources": [
+    {
+      "filename": "GSE113957_fpkm.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113957/suppl/GSE113957_fpkm.txt.gz",
+      "sha256": "999c9d720ff7f0dfe59675f347803d3a0181231313aace2f8406f08528aa123d",
+      "bytes": 7532882
+    },
+    {
+      "filename": "GSE113957-GPL16791_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113957/matrix/GSE113957-GPL16791_series_matrix.txt.gz",
+      "sha256": "3144bef9ef61ca818e16aaf9a7a70e68b082a70a81f5737517cd009d307ea90a",
+      "bytes": 4171
+    },
+    {
+      "filename": "GSE113957-GPL18573_series_matrix.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE113nnn/GSE113957/matrix/GSE113957-GPL18573_series_matrix.txt.gz",
+      "sha256": "1764a9926545a7c4aecc68f423e9338245e859dfe14eb38a8f4bfb88fb0c80ec",
+      "bytes": 9490
+    }
+  ],
+  "result_sha256": {
+    "results/pilot_20261021_v2/holdout_results.pdf": "af1457e20e2b52d71acac59fae9c0c877b78edb95e19ac071ec1ea455716f7dc",
+    "results/pilot_20261021_v2/holdout_results.png": "a77c2ee34ed07c193a575075ab4353480fdac4e56cf6aa90de0232eb1fddd264",
+    "results/pilot_20261021_v2/inner_cv_manifest.json": "071f4c3c276a48e378f9fb3743e90a2e7c9902708cd0586392b958378f2498f4",
+    "results/pilot_20261021_v2/metrics.json": "27d7beaf44861880695694d37b799f99498f6fcb10b456d0e93226970289dc41",
+    "results/pilot_20261021_v2/negative_control.csv": "431a578ad068af71015869340679182a82cdb3fc9d6cb14288cb58904c710d53",
+    "results/pilot_20261021_v2/predictions.csv": "04a58611696c1ece0fb6cc10336ff9341aa62f750adf3c02feef5e5dd9f4db65",
+    "results/pilot_20261021_v2/preflight_gates.json": "08d4b97f8ef5513977c89e08607d6e09b9e010541e2afbfd470b969071cb3241",
+    "results/pilot_20261021_v2/protocol_snapshot.json": "a1adcf752795eb6ce261a1473efff2d49d9c10c52664e5b4ed9935b671859060",
+    "results/pilot_20261021_v2/ridge_feature_weights.csv": "4e230b5f768a489632225023f211fb987c7cc51375b3922d3dabba812a6a523f",
+    "results/pilot_20261021_v2/ridge_inner_cv.csv": "e19b6516ca763ef3277c6bfe847d0f33e6861cfbcca0ddade911f64c01805609",
+    "results/pilot_20261021_v2/split_manifest.csv": "a108d13901186ec6f446bb4458d62f36dc4d1691e4c3b7d4764ed5cdceb7dfd2"
+  },
+  "model_sha256": {
+    "models/pilot_20261021_v2/compact_mlp.joblib": "908c77bcd182630031900ebfe26afa77bbc1db23f79e2e577d7dbb2b1bdff4a2",
+    "models/pilot_20261021_v2/ridge.joblib": "a0aa859cd9b1b86f8de4ec4beba7295c7dc3b62fa10d791020ec3b1591c0550c"
+  },
+  "cost": {
+    "cloud_usd": 0,
+    "gpu_minutes": 0,
+    "cpu_wall_minutes": 0.036485424100002696
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "verifier": "independent implementation; no producer scoring/parsing helpers",
+  "checked_at_utc": "2026-10-21T03:43:38.219354+00:00",
+  "run": "pilot_20261021_v2",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "check": "Frozen protocol hash",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Raw source hash: GSE113957_fpkm.txt.gz",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Raw source hash: GSE113957-GPL16791_series_matrix.txt.gz",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Raw source hash: GSE113957-GPL18573_series_matrix.txt.gz",
+      "verdict": "PASS"
+    },
+    {
+      "check": "143 unique public GSMs/titles/cell IDs",
+      "verdict": "PASS"
+    },
+    {
+      "check": "133 Normal and 10 HGPS",
+      "verdict": "PASS"
+    },
+    {
+      "check": "111 eligible adults age19-96",
+      "verdict": "PASS"
+    },
+    {
+      "check": "88 training/23 holdout, disjoint cell IDs",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Split agrees with independent pre-fit manifest",
+      "verdict": "PASS"
+    },
+    {
+      "check": "All and only holdout GSMs",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Prediction labels/metadata: cell_id",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Prediction labels/metadata: age_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Prediction labels/metadata: sex",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Prediction labels/metadata: platform",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Training-median baseline",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Public split manifest contains all143 exactly once",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Public split manifest: train",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Public split manifest: holdout",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Public split manifest: excluded",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Exactly five inner training folds",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Inner fold disjoint, partition of training, no holdout: 0",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Inner fold disjoint, partition of training, no holdout: 1",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Inner fold disjoint, partition of training, no holdout: 2",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Inner fold disjoint, partition of training, no holdout: 3",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Inner fold disjoint, partition of training, no holdout: 4",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Inner validation covers training exactly once",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Predeclared four Ridge alphas only",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Inner-CV mean scores recompute",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Ridge alpha selected from training CV only",
+      "verdict": "PASS"
+    },
+    {
+      "check": "27142 unique features and exact 143 expression titles",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Expression is finite/nonnegative",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: median_baseline/mae_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: median_baseline/rmse_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: median_baseline/r2",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: median_baseline/median_absolute_error_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: median_baseline/pearson_r",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: median_baseline/bootstrap_mae_ci95",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reloaded checkpoint matches predictions: ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Training-only feature selection: ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Training-only scale mean/variance: ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: ridge/mae_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: ridge/rmse_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: ridge/r2",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: ridge/median_absolute_error_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: ridge/pearson_r",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: ridge/bootstrap_mae_ci95",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported paired CI and criterion: ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reloaded checkpoint matches predictions: compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Training-only feature selection: compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Training-only scale mean/variance: compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Training-only age scaler",
+      "verdict": "PASS"
+    },
+    {
+      "check": "PCA training mean",
+      "verdict": "PASS"
+    },
+    {
+      "check": "PCA training singular values",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Declared 16PC/8hidden architecture",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: compact_mlp/mae_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: compact_mlp/rmse_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: compact_mlp/r2",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: compact_mlp/median_absolute_error_years",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: compact_mlp/pearson_r",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported numeric result: compact_mlp/bootstrap_mae_ci95",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Reported paired CI and criterion: compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Neural vs Ridge improvement/CI and failed superiority recompute",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: sex=female/median_baseline",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: sex=female/ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: sex=female/compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: sex=male/median_baseline",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: sex=male/ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: sex=male/compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: platform=GPL16791/median_baseline",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: platform=GPL16791/ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: platform=GPL16791/compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: platform=GPL18573/median_baseline",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: platform=GPL18573/ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: platform=GPL18573/compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: age_band=18-59/median_baseline",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: age_band=18-59/ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: age_band=18-59/compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: age_band=60+/median_baseline",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: age_band=60+/ridge",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Subgroup counts/errors: age_band=60+/compact_mlp",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Thirty distinct training-shuffle records and summary",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: src/rejuvenation/pipeline.py",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: src/rejuvenation/__init__.py",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: scripts/train.py",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: scripts/download_data.py",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: scripts/predict.py",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: tests/test_pipeline.py",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: configs/protocol.json",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: configs/requirements.lock.txt",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/holdout_results.pdf",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/holdout_results.png",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/inner_cv_manifest.json",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/metrics.json",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/negative_control.csv",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/predictions.csv",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/preflight_gates.json",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/protocol_snapshot.json",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/ridge_feature_weights.csv",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/ridge_inner_cv.csv",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: results/pilot_20261021_v2/split_manifest.csv",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: models/pilot_20261021_v2/compact_mlp.joblib",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Run provenance hash: models/pilot_20261021_v2/ridge.joblib",
+      "verdict": "PASS"
+    },
+    {
+      "check": "Deliberately corrupted prediction is rejected",
+      "verdict": "PASS"
+    }
+  ],
+  "metrics": {
+    "median_baseline": {
+      "mae": 25.065217391304348,
+      "rmse": 27.492093725129493,
+      "r2": -0.18971122087660297,
+      "median_absolute_error": 25.5,
+      "pearson_correlation": null,
+      "mae_ci95": [
+        20.58695652173913,
+        29.58695652173913
+      ],
+      "improvement_ci95": [
+        0.0,
+        0.0
+      ],
+      "relative_mae_reduction": 0.0,
+      "criterion": null
+    },
+    "ridge": {
+      "mae": 12.790175245716297,
+      "rmse": 15.410007032924089,
+      "r2": 0.6262066249195904,
+      "median_absolute_error": 10.430183217792603,
+      "pearson_correlation": 0.8737786766064686,
+      "mae_ci95": [
+        9.38944450689687,
+        16.14576665470555
+      ],
+      "improvement_ci95": [
+        7.92139655983599,
+        17.002689644002473
+      ],
+      "relative_mae_reduction": 0.4897241445767999,
+      "criterion": "PASS"
+    },
+    "compact_mlp": {
+      "mae": 14.241435372539945,
+      "rmse": 18.49756021601734,
+      "r2": 0.46141429090069275,
+      "median_absolute_error": 11.10621353941923,
+      "pearson_correlation": 0.7938384605357384,
+      "mae_ci95": [
+        9.527056988816687,
+        19.169188407794874
+      ],
+      "improvement_ci95": [
+        6.431198224570568,
+        15.198869955747615
+      ],
+      "relative_mae_reduction": 0.43182478132104296,
+      "criterion": "PASS"
+    }
+  },
+  "neural_trainable_parameters": 145,
+  "mlp_vs_ridge": {
+    "mean_mae_improvement": -1.451260126823649,
+    "ci95": [
+      -5.0545018999679225,
+      1.97612097234001
+    ],
+    "superiority": "FAIL"
+  },
+  "limitations": [
+    "Independent numeric/split/software verification is not external biological validation.",
+    "Public cell IDs are a donor proxy; unrelatedness and complete culture provenance are unknown.",
+    "One small adult cohort; no intervention or rejuvenation measured."
+  ],
+  "verifier_source_sha256": "22c882457401946ead2f6365e9fd52afe59c2f9f6480ca95306f0fda5c2f330b"
+}

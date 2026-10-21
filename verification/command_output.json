@@ -1,0 +1,58 @@
+{
+  "verdict": "PASS",
+  "checks": 103,
+  "metrics": {
+    "median_baseline": {
+      "mae": 25.065217391304348,
+      "rmse": 27.492093725129493,
+      "r2": -0.18971122087660297,
+      "median_absolute_error": 25.5,
+      "pearson_correlation": null,
+      "mae_ci95": [
+        20.58695652173913,
+        29.58695652173913
+      ],
+      "improvement_ci95": [
+        0.0,
+        0.0
+      ],
+      "relative_mae_reduction": 0.0,
+      "criterion": null
+    },
+    "ridge": {
+      "mae": 12.790175245716297,
+      "rmse": 15.410007032924089,
+      "r2": 0.6262066249195904,
+      "median_absolute_error": 10.430183217792603,
+      "pearson_correlation": 0.8737786766064686,
+      "mae_ci95": [
+        9.38944450689687,
+        16.14576665470555
+      ],
+      "improvement_ci95": [
+        7.92139655983599,
+        17.002689644002473
+      ],
+      "relative_mae_reduction": 0.4897241445767999,
+      "criterion": "PASS"
+    },
+    "compact_mlp": {
+      "mae": 14.241435372539945,
+      "rmse": 18.49756021601734,
+      "r2": 0.46141429090069275,
+      "median_absolute_error": 11.10621353941923,
+      "pearson_correlation": 0.7938384605357384,
+      "mae_ci95": [
+        9.527056988816687,
+        19.169188407794874
+      ],
+      "improvement_ci95": [
+        6.431198224570568,
+        15.198869955747615
+      ],
+      "relative_mae_reduction": 0.43182478132104296,
+      "criterion": "PASS"
+    }
+  },
+  "failure": null
+}

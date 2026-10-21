@@ -1,0 +1,27 @@
+{
+  "preflight": {
+    "status": "PASS",
+    "total_samples": 143,
+    "healthy_adult_samples": 111,
+    "train_samples": 88,
+    "holdout_samples": 23,
+    "public_cell_ID_overlap": 0,
+    "expression_features": 27142
+  },
+  "lifecycle_smoke": {
+    "status": "PASS",
+    "fixture_samples": 24,
+    "network_trainable_parameters": 145,
+    "optimizer_parameter_movement_l2_sum": 0.01411534387620187,
+    "save_load_exact": true,
+    "resume_matches_uninterrupted": true
+  },
+  "real_data_canary": {
+    "status": "PASS",
+    "samples": 24,
+    "finite_predictions": true,
+    "loss": 0.12645377535397134,
+    "iterations": 215,
+    "convergence_warnings": []
+  }
+}
