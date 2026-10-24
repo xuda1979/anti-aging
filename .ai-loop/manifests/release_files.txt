@@ -6,6 +6,10 @@ configs/protocol.json
 configs/requirements.lock.txt
 data/processed/DATA_CARD.md
 data/processed/sample_manifest.csv
+docs/ASCEND_EXPERIMENT_MATRIX.json
+docs/ASCEND_FIRST_30_DAYS.md
+docs/ASCEND_RND_PLAN.md
+docs/ASCEND_SOURCES.md
 docs/ROADMAP.md
 docs/archive/Cellular_Age_Resetting_AI_2026-10-13.pdf
 docs/archive/README.md

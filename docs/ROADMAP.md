@@ -11,12 +11,14 @@ The first small-scale study trains a regularized linear model and a compact neur
 
 ## Next low-cost milestones
 
+The [Ascend development plan](ASCEND_RND_PLAN.md) turns this roadmap into a proposed 12-week program for the initiator's reported eight 910C and eight 910B NPUs. It includes a [daily first-month checklist](ASCEND_FIRST_30_DAYS.md), [bounded experiment matrix](ASCEND_EXPERIMENT_MATRIX.json), public-data candidates, software/topology gates and independent scientific promotion criteria. Actual NPU capacity, compatibility and performance remain unverified; scaling follows useful measured evidence.
+
 | Gate | Work | Evidence needed before making a stronger claim |
 |---|---|---|
 | Reproduction | Run the published commands from a clean checkout; retain hashes and environment | Same input digests, split IDs and predictions within declared numeric tolerance |
 | Robustness | Freeze a new, explicitly separate repeated nested cross-validation protocol and compare with sex/platform/age-band controls | All-fold outputs, uncertainty and no selection of favorable seeds |
 | External transfer | Select an independent adult fibroblast cohort; verify cell-line independence, expression units and gene mapping before locking evaluation | External performance and domain-shift diagnostics; disclose failed or unsupported transfer |
-| Perturbation reanalysis | Audit GSE165177 and the linked Gill et al. public resources against original metadata | Donor-held-out treatment signatures, identity and functional-readout limitations; never equate treatment classification with rejuvenation |
+| Perturbation reanalysis | The recovered GSE165177/CellClockAI analysis has now been replayed; next examine independent perturbation/context transfer and identity confounding | Preserve the [reproduction record](../legacy/REPRODUCTION.md); treatment signatures remain separate from functional rejuvenation |
 | Mechanism prioritization | Connect perturbation data and literature-supported regulatory hypotheses; retain unsupported-combination abstention | Predeclared AI/expert/random target-selection comparison with equal experimental resources |
 | Prospective biology | Secure experimental leadership, access and a defined tissue-repair indication | New donors, orthogonal perturbation/rescue, identity and functional outcomes, safety and withdrawal follow-up |
 
